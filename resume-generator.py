@@ -2,13 +2,17 @@ import json
 import os
 from jinja2 import Environment, FileSystemLoader
 import time
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, Response
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import threading
+import queue
 
 # Create Flask app
 app = Flask(__name__, static_folder='static')
+
+# Queue to store SSE clients
+sse_clients = []
 
 def load_json_file(file_path):
     """Load and parse a JSON file."""
@@ -28,7 +32,7 @@ def get_selected_projects(projects_data, position):
                         selected_projects.append(project)
                         break
             
-            return selected_projects[:5]
+            return selected_projects
     
     return []
 
@@ -79,7 +83,20 @@ def generate_all_resumes():
     # Generate an index page
     generate_index_page(positions)
     
+    # Notify clients to refresh their browsers
+    print("Sending refresh event to all SSE clients")
+    notify_clients()
+    
     return positions
+
+def notify_clients():
+    """Send a message to all SSE clients"""
+    message = f"data: {{\"event\": \"refresh\", \"timestamp\": {time.time()}}}\n\n"
+    for client in list(sse_clients):
+        try:
+            client.put(message)
+        except:
+            sse_clients.remove(client)
 
 def generate_index_page(positions):
     """Generate an index page listing all available resumes."""
@@ -92,10 +109,45 @@ def generate_index_page(positions):
         f.write(output)
 
 class FileChangeHandler(FileSystemEventHandler):
+    # Class-level variable for the timer
+    _timer = None
+    # Debounce time in seconds
+    DEBOUNCE_SECONDS = 1.0
+    
     def on_modified(self, event):
-        if event.src_path.endswith('.json'):
-            print(f"Detected change in {event.src_path}")
-            generate_all_resumes()
+        if event.src_path.endswith('.json') or (event.src_path.startswith('./templates/') and event.src_path.endswith('.html')) or (event.src_path.startswith('./static/css/') and event.src_path.endswith('.css')):
+            print(f"Detected change in {event.src_path}, waiting for changes to stabilize...")
+            
+            # Cancel the timer if it's already running
+            if self._timer:
+                self._timer.cancel()
+            
+            # Create a new timer that will regenerate resumes after the debounce period
+            self._timer = threading.Timer(self.DEBOUNCE_SECONDS, self._regenerate_resumes)
+            self._timer.start()
+    
+    def _regenerate_resumes(self):
+        print("Changes stabilized, regenerating resumes...")
+        generate_all_resumes()
+
+# SSE route
+@app.route('/events')
+def sse():
+    def event_stream():
+        client_queue = queue.Queue()
+        sse_clients.append(client_queue)
+        try:
+            # Send initial message
+            yield "data: {\"event\": \"connected\"}\n\n"
+            
+            # Wait for events
+            while True:
+                message = client_queue.get()
+                yield message
+        except GeneratorExit:
+            sse_clients.remove(client_queue)
+    
+    return Response(event_stream(), mimetype="text/event-stream")
 
 # Flask routes
 @app.route('/')
@@ -113,7 +165,7 @@ def serve_css(path):
 def watch_files():
     event_handler = FileChangeHandler()
     observer = Observer()
-    observer.schedule(event_handler, '.', recursive=False)
+    observer.schedule(event_handler, '.', recursive=True)
     observer.start()
     
     try:
@@ -125,7 +177,7 @@ def watch_files():
     observer.join()
 
 if __name__ == "__main__":
-    # Make sure the static CSS directory exists
+    # Make sure the static directories exist
     os.makedirs('static/css', exist_ok=True)
     
     # Generate all resumes initially
@@ -142,4 +194,4 @@ if __name__ == "__main__":
         print(f"- {pos} (http://localhost:5000/resume_{pos.replace(' ', '_').lower()}.html)")
     
     # Start the Flask server
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000, threaded=True)

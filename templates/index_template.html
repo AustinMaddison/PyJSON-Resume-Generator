@@ -53,5 +53,36 @@
             {% endfor %}
         </ul>
     </div>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Connect to the SSE endpoint
+            const eventSource = new EventSource('/events');
+            
+            // Log connection status
+            eventSource.onopen = function() {
+                console.log('SSE connection opened');
+            };
+            
+            eventSource.onerror = function(error) {
+                console.error('SSE error:', error);
+                // Try to reconnect after a delay
+                setTimeout(() => {
+                    console.log('Attempting to reconnect...');
+                    eventSource.close();
+                    new EventSource('/events');
+                }, 5000);
+            };
+            
+            // Handle incoming events
+            eventSource.onmessage = function(event) {
+                console.log('SSE message received:', event.data);
+                const data = JSON.parse(event.data);
+                if (data.event === 'refresh') {
+                    console.log('Refreshing page due to content change...');
+                    window.location.reload();
+                }
+            };
+        });
+    </script>
 </body>
 </html>
