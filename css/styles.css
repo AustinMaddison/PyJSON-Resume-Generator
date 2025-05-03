@@ -1,0 +1,157 @@
+/* Harvard resume format */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    font-size: 12pt;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 18pt;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+    font-size: 11pt;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+h2 {
+    font-size: 14pt;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 8px 0 4px 0;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+/* Project styling */
+.project {
+    margin-bottom: 15px;
+}
+
+.project-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.project-title a:hover {
+    text-decoration: underline;
+}
+
+.project-tech {
+    font-style: italic;
+    margin-bottom: 5px;
+    font-size: 11pt;
+}
+
+.project ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.project li {
+    margin-bottom: 3px;
+}
+
+/* Icon for project links */
+.link-icon {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Skills section */
+.skill-group {
+    margin-bottom: 10px;
+}
+
+.skill-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.keyword {
+    padding: 2px 4px;
+    font-size: 11pt;
+}
+
+/* Work experience section */
+.work-item {
+    margin-bottom: 10px;
+}
+
+.work-item p {
+    margin: 3px 0;
+}
+
+/* Education section */
+.education-item {
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    margin: 3px 0;
+}
+
+/* Certificates section */
+ul {
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Simple utility class for small text */
+.small {
+    font-size: 10pt;
+}
