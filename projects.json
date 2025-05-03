@@ -1,14 +1,193 @@
 {
     "projects": [
         {
-            "name": "Project",
-            "technologies": "Project",
-            "description": "Description...",
+            "name": "HateMatch - Dating Platform Web Application",
+            "technologies": "Vue, Vuetify, Java, Spring",
+            "description": "Dating platform web application that matches users based on shared dislikes and opposing preferences.",
             "highlights": [
-                "Point 1",
-                "Point 2"
+                "Designed and developed the entire frontend using Vue and Vuetify, including user authentication, profile management, and interactive matching interface.",
+                "Engineered custom Vuetify theme and a floating cursor UX for intuitive swipe gestures, enhancing user experience.",
+                "Integrated Java Spring backend for secure user authentication and data management.",
+                "Prototyped matching algorithm using pairwise user preference negation, enabling MVP-level functionality with future optimization in mind."
             ],
-            "url": "https://project.com/"
+            "url": "www.example.com"
+        },
+        {
+            "name": "Custom Blog Platform",
+            "technologies": "Hugo, Tailwind CSS, Three.js",
+            "description": "Fully responsive static blog platform with a custom Hugo theme and layouts.",
+            "highlights": [
+                "Built a UI framework with custom snippets for grid-based elements, dropdown reveals, animated thumbnails (WebM), embedded Three.js, and filtering using tags and categories.",
+                "Integrated Helvetica Now Variable Font, providing dynamic typography control and enhanced readability across devices.",
+                "Developed parallax scrolling effects with tag-based filtering systems, creating a visually engaging browsing experience.",
+                "Ensured subtle animations for most interactive elements, making all user interactions feel polished but doesn’t get in the way of the content."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "ATK Generator",
+            "technologies": "Electron, Python, Blender CLI",
+            "description": "Desktop application that renders a photorealistic ATK test result with handwritten timestamps.",
+            "highlights": [
+                "Developed a desktop app enabling users to input metadata and generate photorealistic ATK test images with handwritten timestamps with preset environments.",
+                "Modeled and surfaced high-fidelity 3D ATK asset.",
+                "Engineered a Python backend with Blender CLI to automate input textures and render jobs based on user-defined parameters."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Separable Convolution Circular Lens Blur",
+            "technologies": "C#, MATLAB, HLSL, Unity HDRP",
+            "description": "Post-processing Bokeh blur effect using separable convolution in imaginary phasor space.",
+            "highlights": [
+                "Implemented a post-processing Bokeh blur effect with O(n) runtime using separable convolution in imaginary phasor space.",
+                "Ported algorithm from MATLAB to Unity HDRP using ShaderLab HLSL, enabling real-time cinematic lens effects."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Interactive Pathfinding Algorithm Visualizer",
+            "technologies": "C#, HLSL, Unity URP",
+            "description": "Real-time algorithm visualizer supporting multiple search algorithms with interactive UI.",
+            "highlights": [
+                "Built a real-time algorithm visualizer supporting A*, Dijkstra, BFS, and Greedy Best-First Search with modular architecture.",
+                "Developed an event-driven UI system with dynamic updates and heuristic cost overlays.",
+                "Integrated real-time performance metrics and intuitive grid editor for scenario customization."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Faithful Plant Placement",
+            "technologies": "VEX, OpenCL, C++, Python, HLSL, Houdini Engine, UE5",
+            "description": "Procedural simulation tools for vegetation placement in Unreal Engine 5 based on environmental data.",
+            "highlights": [
+                "Developed procedural simulation tools for vegetation placement using climate, topology, and species data.",
+                "Implemented adaptive placement algorithms and seeding logic using iterative optimization.",
+                "Rendered photorealistic snapshots supporting simulation accuracy and art direction."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Passive Matrix LCD Shader",
+            "technologies": "GLSL, Godot, C#",
+            "description": "Custom material model simulating optical effects of monochrome passive matrix LCDs.",
+            "highlights": [
+                "Simulated optical effects like parallax shadows, shimmer, and backlight bleed.",
+                "Engineered a procedural pixel matrix using GLSL for authentic LCD rendering.",
+                "Optimized shader performance for real-time applications."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "technologies": "C++, GLSL, Compute Shaders, Dear IMGUI",
+            "description": "Global illumination system using Monte Carlo methods and irradiance probes for real-time lighting.",
+            "highlights": [
+                "Developed a high-performance GI system with Monte Carlo methods for accurate light transport simulation.",
+                "Implemented GPU-based compute shaders for accelerating real-time GI using ray marching in SDF.",
+                "Designed irradiance probe system optimizing indirect lighting in dynamic scenes.",
+                "Benchmarked GI approaches demonstrating 8x speed improvements."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Hello Mascot",
+            "technologies": "Unity, C#, Google MediaPipe",
+            "description": "Real-time mascot experience demo with full-body interactions via pose tracking.",
+            "highlights": [
+                "Enabled full-body interactions using Google MediaPipe pose tracking.",
+                "Designed GPU shaders for stylized visuals and procedural facial animation.",
+                "Modeled and animated high-fidelity characters for live installations.",
+                "Delivered a successful proof-of-concept for internal commercialization."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Seamless City - Bangkok Design Week 2024",
+            "technologies": "Unity, C#, Intel RealSense",
+            "description": "3-player 3D installation showcased at Bangkok Design Week 2024.",
+            "highlights": [
+                "Implemented advanced graphics: multifocal vignetting, cloth dynamics, SDF-based collisions, and interactive bloom/glare.",
+                "Extended Intel RealSense C# API for onsite depth camera calibration.",
+                "Praised by 200+ attendees for seamless multiplayer interaction."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Mini Sky Engine",
+            "technologies": "OpenGL, C#, GLSL, OpenTK, Dear IMGUI",
+            "description": "Real-time sky rendering engine simulating atmospheric effects.",
+            "highlights": [
+                "Simulated sunlight, sky scattering, and volumetric clouds with GPU LUTs.",
+                "Raymarched dynamic volumetric clouds using FBM noise fields.",
+                "Built engine architecture in C# with shader management and IMGUI tools."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Brackey’s Game Jam 2024.2 - Lights Out",
+            "technologies": "Godot, GdScript, GLSL",
+            "description": "Stylized 2D game made for Brackey’s Game Jam (Theme: 'Calm Before the Storm').",
+            "highlights": [
+                "Developed palette remapping and film grain shaders for tense visual aesthetic.",
+                "Implemented GPU-accelerated VFX and 2D light system.",
+                "Programmed gameplay systems: torch combat, sanity, audio, and transitions.",
+                "Designed and produced all game audio for immersive experience."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Shell + Terminal Animation Library",
+            "technologies": "C++",
+            "description": "Simplified Linux shell with command parsing and animated terminal UX.",
+            "highlights": [
+                "Implemented command parsing, job control, and I/O redirection using fork/exec/wait.",
+                "Designed a bash-like UX with command history and true-color formatting.",
+                "Added splash screen animations using flip-book rendering."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Web Server",
+            "technologies": "C++",
+            "description": "Multi-threaded web server supporting HTTP/1.1 and CGI.",
+            "highlights": [
+                "Implemented request parsing, response generation, and CGI-based POST handling.",
+                "Used YACC for structured input and multithreading for concurrent connections."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Single Cycle MIPS Simulator",
+            "technologies": "C",
+            "description": "Instruction-level simulator for MIPS architecture with execution tracing.",
+            "highlights": [
+                "Implemented arithmetic, branching, memory, and syscall instruction emulation.",
+                "Integrated endian-aware memory and debugging features."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Streaming Data Pipeline & Exploratory Data Analysis",
+            "technologies": "Python, Kafka, DuckDB",
+            "description": "Real-time data pipeline integrating financial and event streams with analytics.",
+            "highlights": [
+                "Ingested data from Yahoo Finance and GDELT using Kafka.",
+                "Optimized storage using Snappy-compressed Parquet and SQL analytics via DuckDB.",
+                "Performed time-series and hypothesis testing to uncover market-news relationships."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "Streaming Data Pipeline & Real-Time Visualization",
+            "technologies": "Python, Kafka, Elasticsearch, Kibana",
+            "description": "Real-time data visualization of financial trends using Elasticsearch and Kibana.",
+            "highlights": [
+                "Built streaming data ingestion from Alpaca and Free Currency API using Kafka.",
+                "Engineered Elasticsearch queries for search and aggregation.",
+                "Designed interactive Kibana dashboards and performed ETL/data transformation."
+            ],
+            "url": "www.example.com"
         }
     ],
 
@@ -26,6 +205,196 @@
     ],
 
     "job-positions-project": [
-
+        { "Frontend Engineer": [
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Shell + Terminal Animation Library",
+            "Hello Mascot",
+            "Seamless City - Bangkok Design Week 2024",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Separable Convolution Circular Lens Blur",
+            "Faithful Plant Placement",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Backend Engineer": [
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "HateMatch - Dating Platform Web Application",
+            "Shell + Terminal Animation Library",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Hello Mascot",
+            "Seamless City - Bangkok Design Week 2024",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Separable Convolution Circular Lens Blur",
+            "Faithful Plant Placement",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Full Stack Engineer": [
+            "HateMatch - Dating Platform Web Application",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Shell + Terminal Animation Library",
+            "Hello Mascot",
+            "Seamless City - Bangkok Design Week 2024",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Separable Convolution Circular Lens Blur",
+            "Faithful Plant Placement",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Game Developer": [
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Hello Mascot",
+            "Seamless City - Bangkok Design Week 2024",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Shell + Terminal Animation Library",
+            "Separable Convolution Circular Lens Blur",
+            "Faithful Plant Placement",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Computer Graphics Programmer": [
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Faithful Plant Placement",
+            "Separable Convolution Circular Lens Blur",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Hello Mascot",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Shell + Terminal Animation Library",
+            "Seamless City - Bangkok Design Week 2024",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Technical Artist": [
+            "Faithful Plant Placement",
+            "ATK Generator",
+            "Seamless City - Bangkok Design Week 2024",
+            "Separable Convolution Circular Lens Blur",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Hello Mascot",
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Shell + Terminal Animation Library",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Technical Director": [
+            "Faithful Plant Placement",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Seamless City - Bangkok Design Week 2024",
+            "Hello Mascot",
+            "Mini Sky Engine",
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Shell + Terminal Animation Library",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Passive Matrix LCD Shader",
+            "Separable Convolution Circular Lens Blur",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Computer Vision Engineer": [
+            "Hello Mascot",
+            "Seamless City - Bangkok Design Week 2024",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Shell + Terminal Animation Library",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "Separable Convolution Circular Lens Blur",
+            "Faithful Plant Placement",
+            "Single Cycle MIPS Simulator"
+        ]},
+        { "Robotics Engineer": [
+            "Single Cycle MIPS Simulator",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Shell + Terminal Animation Library",
+            "Hello Mascot",
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Web Server",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "Seamless City - Bangkok Design Week 2024",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Separable Convolution Circular Lens Blur",
+            "Faithful Plant Placement"
+        ]},
+        { "Systems Programmer": [
+            "Shell + Terminal Animation Library",
+            "Web Server",
+            "Single Cycle MIPS Simulator",
+            "Streaming Data Pipeline & Exploratory Data Analysis",
+            "HateMatch - Dating Platform Web Application",
+            "Custom Blog Platform",
+            "ATK Generator",
+            "Brackey's Game Jam 2024.2 - Lights Out",
+            "Streaming Data Pipeline & Real-Time Visualization",
+            "Hello Mascot",
+            "Seamless City - Bangkok Design Week 2024",
+            "Interactive Pathfinding Algorithm Visualizer",
+            "Mini Sky Engine",
+            "Passive Matrix LCD Shader",
+            "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "Separable Convolution Circular Lens Blur",
+            "Faithful Plant Placement"
+        ]}
     ]
 }
+
