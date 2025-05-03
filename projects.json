@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "name": "Project",
+            "technologies": "Project",
+            "description": "Description...",
+            "highlights": [
+                "Point 1",
+                "Point 2"
+            ],
+            "url": "https://project.com/"
+        }
+    ],
+
+    "job-positions": [
+        { "title": "Frontend Engineer" },
+        { "title": "Backend Engineer" },
+        { "title": "Full Stack Engineer" },
+        { "title": "Game Developer" },
+        { "title": "Computer Graphics Programmer" },
+        { "title": "Technical Artist" },
+        { "title": "Technical Director" },
+        { "title": "Computer Vision Engineer" },
+        { "title": "Robotics Engineer" },
+        { "title": "Systems Programmer" }
+    ],
+
+    "job-positions-project": [
+
+    ]
+}
