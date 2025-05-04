@@ -22,17 +22,65 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "Mahidol University International College",
+      "area": "B.S in Computer Science, Minor in Applied Mathematics",
+      "url": "https://institution.com/",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "3.3",
+      "courses": [
+        "Heuristic Optimizaion"
+      ]
+    }
+  ],
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Mahidol University International College",
+      "position": "Teaching Assistant",
+      "startDate": "2023-04-01",
+      "endDate": "2025-04-01",
+      "location": "Salaya, Nakhon Pathom",
+      "summary": "",
       "highlights": [
-        "Started the company"
-      ]
+        "Assisted students in mastering core programming concepts across courses including Functional and Parallel Programming, Data Structures, Abstraction & Object-Oriented Programming, and Intro to Programming.",
+        "Provided personalized guidance in problem-solving and debugging, fostering a deeper understanding of course material.",
+        "Graded 300+ assignments across courses using automated scripts and manual instrumentation.",
+        "Developed and refined technical communication and logical analysis skills, effectively conveying complex concepts to students."
+      ],
+      "url": "https://company.com"
+    },
+    {
+      "name": "Adapter Digital",
+      "position": "Software Developer, Part Time",
+      "startDate": "2023-11-01",
+      "endDate": "2024-03-01",
+      "location": "Ari, Bangkok",
+      "summary": "Collaborated with design and innovation teams to create 3-player 3D game installation “Seemless City” for Bangkok Design Week 2024.",
+      "highlights": [
+        "Implemented real-time rendering features such as procedural meshes, HLSL surface and screen-space shaders using Unity’s C# framework and high definition render pipeline.", 
+        "Highlight features: dynamic multiple focal point vignetting with variable feathering using signed distance fields (SDF), inertia animation hooks, fluttering cloth using multi-scale perlin noise wind, SDF particle collisions, bloom/glare.",  
+        "Extended Intel RealSense’s C# API to allow for depth normalization and remapping to be used in calibration tool onsite.",
+        "The reception was overwhelmingly positive from 200+ participant surveys and optional comments described that the full-body motion controls, multiplayer and 3D aspects were refreshing and unique."
+      ],
+      "url": "https://company.com"
+    },
+    {
+      "name": "Adapter Digital",
+      "position": "Software Developer, Internship",
+      "startDate": "2023-08-01",
+      "endDate": "2023-09-01",
+      "location": "Ari, Bangkok",
+      "summary": "Collaborated with design and innovation teams to create 3-player 3D game installation “Seemless City” for Bangkok Design Week 2024.",
+      "highlights": [
+        "Collaborated with the innovation team’s C# developer to implement motion controls using Google’s MediaPipe library for pose landmark detection from external camera feed to interact with virtual character and world.",
+        "Implemented shaders for vegetation and cloud wind, stop motion clay river water wakes, stop motion clay character and fully gpu-driven 2D facial animations using multi UVs and sin/cos functions for scheduling expressions.",
+        "Modeled, textured, animated and lit environmental prop and character assets.",
+        "The project’s reception with colleagues was very positive and surpassed expectations."
+      ],
+      "url": "https://company.com"
     }
   ],
   "volunteer": [
@@ -48,20 +96,7 @@
       ]
     }
   ],
-  "education": [
-    {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }
-  ],
+ 
   "awards": [
     {
       "title": "Award",

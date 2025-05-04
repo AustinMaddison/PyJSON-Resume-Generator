@@ -112,10 +112,13 @@ class FileChangeHandler(FileSystemEventHandler):
     # Class-level variable for the timer
     _timer = None
     # Debounce time in seconds
-    DEBOUNCE_SECONDS = 1.0
+    DEBOUNCE_SECONDS = 2.0
     
     def on_modified(self, event):
-        if event.src_path.endswith('.json') or (event.src_path.startswith('./templates/') and event.src_path.endswith('.html')) or (event.src_path.startswith('./static/css/') and event.src_path.endswith('.css')):
+        if event.src_path.endswith('.json') or (event.src_path.startswith('./templates/') and 
+            event.src_path.endswith('.html')) or (event.src_path.startswith('./static/css/') and 
+            event.src_path.endswith('.css')):
+        
             print(f"Detected change in {event.src_path}, waiting for changes to stabilize...")
             
             # Cancel the timer if it's already running
