@@ -58,6 +58,19 @@ def generate_resume(base_data, projects_data, position, output_dir):
     template_data['selected_projects'] = selected_projects
     template_data['position_title'] = position
     
+    # Replace `` with " in all string values throughout the template data
+    def replace_backticks(data):
+        if isinstance(data, dict):
+            return {k: replace_backticks(v) for k, v in data.items()}
+        elif isinstance(data, list):
+            return [replace_backticks(item) for item in data]
+        elif isinstance(data, str):
+            return data.replace("``", "\"")
+        else:
+            return data
+
+    template_data = replace_backticks(template_data)
+    
     # Render the template
     output = template.render(**template_data)
     

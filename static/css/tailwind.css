@@ -14,13 +14,19 @@ body {
     font-size: 10pt;
 }
 
+@media print {
+    body {
+        padding: 0px;
+    };
+}
+
 header {
     text-align: center;
     margin-bottom: 20px;
 }
 
 header > h1 {
-    font-size: 18pt;
+    font-size: 16pt;
     margin-bottom: 5px;
     text-transform: capitalize;
     font-weight: bold;
@@ -45,7 +51,6 @@ header p {
     align-items: center;
     gap: 5px;
 }
-
 
 .section-title {
     font-size: 10pt;
@@ -73,10 +78,13 @@ header p {
     font-size: 9.5pt;
 }
 
+.item-sub-title {
+    
+}
+
 .item-content {
     @apply mx-3;
 }
-
 
 .section {
     margin-bottom: 15px;
@@ -87,6 +95,12 @@ header p {
     margin-bottom: 15px;
 }
 
+@media print {
+    .project {
+      break-inside: avoid;
+    }
+  }
+
 .project-title a {
     color: #000;
     text-decoration: none;
@@ -96,9 +110,16 @@ header p {
     text-decoration: underline;
 }
 
+.item-date, .education-item-date {
+    font-variation-settings: 'wght' 600, 'wdth' 100;
+    font-size: 11.5px;
+    letter-spacing: 0.2px;
+    font-family: 'Noto Sans';
+    @apply mb-[1px];
+}
 
 .project-tech {
-    font-variation-settings: 'wght' 500, 'wdth' 60;
+    font-variation-settings: 'wght' 500, 'wdth' 80;
     text-transform: uppercase;
     font-size: 9.8px;
     letter-spacing: 0.5px;

@@ -100,7 +100,7 @@
             <h3 class="item-title">{{ job.name }}</h3>
                 <div class="flex">
                     <div class="item-date">
-                        {{ job.startDate | datetime_format }} - {{ ( job.endDate | datetime_format ) |default('Present')  }}
+                        {{ job.startDate | datetime_format | upper }} - {{ ( job.endDate | datetime_format ) |default('Present') | upper }}
                     </div>
                 </div>
             </div>
