@@ -8,6 +8,7 @@ from watchdog.events import FileSystemEventHandler
 import threading
 import queue
 import subprocess
+from datetime import date
 
 # Create Flask app
 app = Flask(__name__, static_folder='static')
@@ -37,6 +38,11 @@ def get_selected_projects(projects_data, position):
     
     return []
 
+def datetime_format(value, format="%b %Y"):
+    date_data = value.split('-')
+    date_data = [int(x) for x in date_data]
+    return date(date_data[0], date_data[1], date_data[2]).strftime(format)
+
 def generate_resume(base_data, projects_data, position, output_dir):
     """Generate a resume for the specified position."""
     # Get relevant projects for the position
@@ -44,6 +50,7 @@ def generate_resume(base_data, projects_data, position, output_dir):
     
     # Set up Jinja environment
     env = Environment(loader=FileSystemLoader('templates'))
+    env.filters["datetime_format"] = datetime_format
     template = env.get_template('resume_template.html')
     
     # Prepare data for the template
