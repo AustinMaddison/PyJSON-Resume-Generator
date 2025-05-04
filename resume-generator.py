@@ -116,7 +116,7 @@ def generate_index_page(positions):
 
 class FileChangeHandler(FileSystemEventHandler):
     _timer = None
-    DEBOUNCE_SECONDS = 2.0
+    DEBOUNCE_SECONDS = 0.8
     
     def on_modified(self, event):
         if event.src_path.endswith('.json') or (event.src_path.startswith('./templates/') and 

@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Austin Maddison",
+    "name": "Austin Jetrin Maddison",
     "label": "Computer Science Student",
     "image": "null",
     "email": "austin.mad.th@gmail.com",
@@ -27,9 +27,8 @@
       "institution": "Mahidol University International College",
       "area": "B.S in Computer Science, Minor in Applied Mathematics",
       "url": "https://institution.com/",
-      "studyType": "Bachelor",
       "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "endDate": "2026-01-04",
       "gpa": "3.3",
       "courses": [
         "Heuristic Optimizaion"
@@ -73,7 +72,7 @@
       "startDate": "2023-08-01",
       "endDate": "2023-09-01",
       "location": "Ari, Bangkok",
-      "summary": "Collaborated with design and innovation teams to create 3-player 3D game installation “Seemless City” for Bangkok Design Week 2024.",
+      "summary": "Developed a real-time 3D installation project “Hello Mascot” for the firm’s product portfolio as their part of diversifying the kinds of digital products they can give to clients.",
       "highlights": [
         "Collaborated with the innovation team’s C# developer to implement motion controls using Google’s MediaPipe library for pose landmark detection from external camera feed to interact with virtual character and world.",
         "Implemented shaders for vegetation and cloud wind, stop motion clay river water wakes, stop motion clay character and fully gpu-driven 2D facial animations using multi UVs and sin/cos functions for scheduling expressions.",

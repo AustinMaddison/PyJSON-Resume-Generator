@@ -2,14 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100-900&family=Noto+Sans:ital,wght@0,100-900;1,100-900&display=swap');
+
 body {
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.5;
-    max-width: 800px;
+    font-family: 'Noto', Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+    max-width: 8.5in; /* Standard paper width */
     margin: 0 auto;
     padding: 20px;
-    color: #333;
-    font-size: 12pt;
+    color: #000000;
+    font-size: 10pt;
 }
 
 header {
@@ -17,10 +19,10 @@ header {
     margin-bottom: 20px;
 }
 
-h1 {
+header > h1 {
     font-size: 18pt;
     margin-bottom: 5px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
 }
 
@@ -35,7 +37,7 @@ header p {
     justify-content: center;
     gap: 15px;
     margin: 10px 0;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 .contact-item {
@@ -44,21 +46,37 @@ header p {
     gap: 5px;
 }
 
-h2 {
-    font-size: 14pt;
+
+.section-title {
+    font-size: 10pt;
     text-transform: uppercase;
+    font-weight: 900;
+
     border-bottom: 1px solid #000;
     margin-top: 15px;
     margin-bottom: 10px;
-    padding-bottom: 3px;
-    font-weight: bold;
+    /* padding-bottom: 1px; */
 }
 
-h3 {
-    font-size: 12pt;
-    font-weight: bold;
-    margin: 8px 0 4px 0;
+.section-list {
+    @apply mx-1;
 }
+
+
+.item-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font-size: 9.5pt;
+}
+
+.item-content {
+    @apply mx-3;
+}
+
 
 .section {
     margin-bottom: 15px;
@@ -67,14 +85,6 @@ h3 {
 /* Project styling */
 .project {
     margin-bottom: 15px;
-}
-
-.project-title {
-    font-weight: bold;
-    margin-bottom: 3px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
 }
 
 .project-title a {
@@ -86,10 +96,15 @@ h3 {
     text-decoration: underline;
 }
 
+
 .project-tech {
-    font-style: italic;
-    margin-bottom: 5px;
-    font-size: 11pt;
+    font-variation-settings: 'wght' 500, 'wdth' 60;
+    text-transform: uppercase;
+    font-size: 9.8px;
+    letter-spacing: 0.5px;
+    font-family: 'Noto Sans Mono';
+    color: rgba(0, 0, 0, 0.908);
+    @apply mb-[1px];
 }
 
 .project ul {
@@ -135,6 +150,10 @@ h3 {
     margin: 3px 0;
 }
 
+.education-item-header {
+    margin: 8px 0 4px 0;
+}
+
 /* Education section */
 .education-item {
     margin-bottom: 10px;
@@ -144,13 +163,16 @@ h3 {
     margin: 3px 0;
 }
 
+
+
 /* Certificates section */
 ul {
     margin: 5px 0;
     padding-left: 20px;
 }
 
-li {
+.item-content > ul > li {
+    list-style-type: disc;
     margin-bottom: 5px;
 }
 
