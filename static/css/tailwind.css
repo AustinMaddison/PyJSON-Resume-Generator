@@ -177,6 +177,11 @@ header p {
    @apply mb-1 last:mb-0;
 }
 
+li > strong {
+    font-family: 'Arimo';
+    font-variation-settings: 'wght' 600;
+}
+
 .work-item p {
     margin: 3px 0;
 }

@@ -83,7 +83,7 @@
                 {% if edu.score %}
                 <p>GPA: {{ edu.score }}</p>
                 {% endif %}
-                {% if edu.courses %}
+                {% if edu.courses and ("HIDE" not in edu.courses) %}
                 <ul>
                     <li>Relevant Courses: {{ edu.courses|join(', ') }}.</li>
                 </ul>

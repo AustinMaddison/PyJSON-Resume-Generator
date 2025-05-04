@@ -851,6 +851,11 @@ header p {
   margin-bottom: 0px;
 }
 
+li > strong {
+  font-family: 'Arimo';
+  font-variation-settings: 'wght' 600;
+}
+
 .work-item p {
   margin: 3px 0;
 }

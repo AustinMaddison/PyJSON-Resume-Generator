@@ -31,6 +31,7 @@
       "endDate": "2026-01-04",
       "gpa": "3.3",
       "courses": [
+        "HIDE",
         "Functional and Parallel Programming",
         "Data Structures & OOP",
         "Software System Construction",
