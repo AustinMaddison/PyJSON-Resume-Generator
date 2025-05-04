@@ -7,6 +7,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import threading
 import queue
+import subprocess
 
 # Create Flask app
 app = Flask(__name__, static_folder='static')
@@ -67,9 +68,8 @@ def generate_all_resumes():
     """Generate resumes for all positions in the JSON data."""
     print("Generating all resumes...")
     
-    # Load the JSON data
-    base_data = load_json_file('base.json')
-    projects_data = load_json_file('projects.json')
+    base_data = load_json_file('./data/base.json')
+    projects_data = load_json_file('./data/projects.json')
     
     # Get all available positions
     positions = [pos['title'] for pos in projects_data.get('job-positions', [])]
@@ -83,7 +83,6 @@ def generate_all_resumes():
     # Generate an index page
     generate_index_page(positions)
     
-    # Notify clients to refresh their browsers
     print("Sending refresh event to all SSE clients")
     notify_clients()
     
@@ -109,9 +108,7 @@ def generate_index_page(positions):
         f.write(output)
 
 class FileChangeHandler(FileSystemEventHandler):
-    # Class-level variable for the timer
     _timer = None
-    # Debounce time in seconds
     DEBOUNCE_SECONDS = 2.0
     
     def on_modified(self, event):
@@ -121,16 +118,23 @@ class FileChangeHandler(FileSystemEventHandler):
         
             print(f"Detected change in {event.src_path}, waiting for changes to stabilize...")
             
-            # Cancel the timer if it's already running
             if self._timer:
                 self._timer.cancel()
             
-            # Create a new timer that will regenerate resumes after the debounce period
             self._timer = threading.Timer(self.DEBOUNCE_SECONDS, self._regenerate_resumes)
             self._timer.start()
+            
     
     def _regenerate_resumes(self):
         print("Changes stabilized, regenerating resumes...")
+        try:
+            print("Running npm build...")
+            subprocess.run(["npm", "run", "build-css"], check=True)
+            print("Build completed successfully")
+        except subprocess.CalledProcessError as e:
+            print(f"Build failed: {e}")
+        except FileNotFoundError:
+            print("npm command not found. Make sure Node.js is installed.")
         generate_all_resumes()
 
 # SSE route
@@ -165,12 +169,17 @@ def serve_file(path):
 def serve_css(path):
     return send_from_directory('static/css', path)
 
+@app.route('/fonts/<path:path>')
+def serve_fonts(path):
+    return send_from_directory('static/fonts', path)
+
 def watch_files():
     event_handler = FileChangeHandler()
     observer = Observer()
-    observer.schedule(event_handler, '.', recursive=True)
+    observer.schedule(event_handler, './data', recursive=False)
+    observer.schedule(event_handler, './templates', recursive=False)
+    observer.schedule(event_handler, './static/css', recursive=False)
     observer.start()
-    
     try:
         while True:
             time.sleep(1)
@@ -182,11 +191,10 @@ def watch_files():
 if __name__ == "__main__":
     # Make sure the static directories exist
     os.makedirs('static/css', exist_ok=True)
+    # os.makedirs('static/fonts', exist_ok=True)
     
-    # Generate all resumes initially
     positions = generate_all_resumes()
     
-    # Start the file watcher in a separate thread
     watcher_thread = threading.Thread(target=watch_files)
     watcher_thread.daemon = True
     watcher_thread.start()
