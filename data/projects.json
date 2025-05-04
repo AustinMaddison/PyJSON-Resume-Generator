@@ -188,6 +188,32 @@
                 "Designed interactive Kibana dashboards and performed ETL/data transformation."
             ],
             "url": "www.example.com"
+        },
+        {
+            "name": "E-Sports Minecraft Modding and Server DevOps",
+            "technologies": "Java, Docker, HTML, JS, FFmpeg (WebM), Python, Unix",
+            "description": "Managed E-Sports competition logistics, developed mods, and deployed game servers for Animation Games Club Minecraft competitions: UHC, Survival Games and Sky Wars.",
+            "highlights": [
+            "Managed end-to-end E-Sports competition logistics, including scheduling and participant coordination.",
+            "Deployed dockerized Minecraft game servers for matches, ensuring repoducibility and stability.",
+            "Programmed custom mods by forking plugins to enforce competition rules and enhance gameplay.",
+            "Built static websites and assets for onboarding and competition information using GitHub Pages.",
+            "Created a registration dashboard using Python and Google Workspace API for seamless participant management."
+            ],
+            "url": "www.example.com"
+        },
+        {
+            "name": "JSON-Based Resume Generator",
+            "technologies": "Flask, Jinja2, Tailwind CSS, PostCSS, JavaScript, SSE",
+            "description": "Batch resume generator that creates tailored resumes for different job positions, ordering content by relevance.",
+            "highlights": [
+                "Engineered a Flask and Jinja2 web application that generates position-specific resumes from JSON data sources.",
+                "Implemented server-sent events (SSE) via subprocesses to provide real-time updates during resume generation.",
+                "Developed a filesystem watching system that automatically rebuilds resumes when source content changes.",
+                "Created an index interface to browse and preview all generated resumes for each position.",
+                "Designed a modern, responsive theme based on Harvard style using Tailwind CSS with PostCSS processing."
+            ],
+            "url": "www.example.com"
         }
     ],
 
@@ -208,7 +234,9 @@
         { "Frontend Engineer": [
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
+            "JSON-Based Resume Generator",
             "ATK Generator",
+            "E-Sports Minecraft Modding and Server DevOps",
             "Brackey's Game Jam 2024.2 - Lights Out",
             "Streaming Data Pipeline & Real-Time Visualization",
             "Web Server",
@@ -226,6 +254,8 @@
         ]},
         { "Backend Engineer": [
             "Web Server",
+            "E-Sports Minecraft Modding and Server DevOps",
+            "JSON-Based Resume Generator",
             "Streaming Data Pipeline & Exploratory Data Analysis",
             "Streaming Data Pipeline & Real-Time Visualization",
             "HateMatch - Dating Platform Web Application",
@@ -245,6 +275,8 @@
         ]},
         { "Full Stack Engineer": [
             "HateMatch - Dating Platform Web Application",
+            "JSON-Based Resume Generator",
+            "E-Sports Minecraft Modding and Server DevOps",
             "Web Server",
             "Streaming Data Pipeline & Exploratory Data Analysis",
             "Streaming Data Pipeline & Real-Time Visualization",
@@ -265,6 +297,7 @@
         { "Game Developer": [
             "Brackey's Game Jam 2024.2 - Lights Out",
             "Hello Mascot",
+            "E-Sports Minecraft Modding and Server DevOps",
             "Seamless City - Bangkok Design Week 2024",
             "Interactive Pathfinding Algorithm Visualizer",
             "Mini Sky Engine",
@@ -273,6 +306,7 @@
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
             "ATK Generator",
+            "JSON-Based Resume Generator",
             "Streaming Data Pipeline & Real-Time Visualization",
             "Web Server",
             "Streaming Data Pipeline & Exploratory Data Analysis",
@@ -293,6 +327,8 @@
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
             "ATK Generator",
+            "JSON-Based Resume Generator",
+            "E-Sports Minecraft Modding and Server DevOps",
             "Streaming Data Pipeline & Real-Time Visualization",
             "Web Server",
             "Streaming Data Pipeline & Exploratory Data Analysis",
@@ -307,8 +343,10 @@
             "Separable Convolution Circular Lens Blur",
             "Interactive Pathfinding Algorithm Visualizer",
             "Hello Mascot",
+            "E-Sports Minecraft Modding and Server DevOps",
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
+            "JSON-Based Resume Generator",
             "Brackey's Game Jam 2024.2 - Lights Out",
             "Streaming Data Pipeline & Real-Time Visualization",
             "Web Server",
@@ -322,11 +360,13 @@
         { "Technical Director": [
             "Faithful Plant Placement",
             "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
+            "E-Sports Minecraft Modding and Server DevOps",
             "Seamless City - Bangkok Design Week 2024",
             "Hello Mascot",
             "Mini Sky Engine",
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
+            "JSON-Based Resume Generator",
             "ATK Generator",
             "Brackey's Game Jam 2024.2 - Lights Out",
             "Streaming Data Pipeline & Real-Time Visualization",
@@ -346,6 +386,8 @@
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
             "ATK Generator",
+            "JSON-Based Resume Generator",
+            "E-Sports Minecraft Modding and Server DevOps",
             "Brackey's Game Jam 2024.2 - Lights Out",
             "Streaming Data Pipeline & Real-Time Visualization",
             "Web Server",
@@ -362,9 +404,11 @@
             "Interactive Pathfinding Algorithm Visualizer",
             "Shell + Terminal Animation Library",
             "Hello Mascot",
+            "E-Sports Minecraft Modding and Server DevOps",
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
             "ATK Generator",
+            "JSON-Based Resume Generator",
             "Brackey's Game Jam 2024.2 - Lights Out",
             "Streaming Data Pipeline & Real-Time Visualization",
             "Web Server",
@@ -379,8 +423,10 @@
         { "Systems Programmer": [
             "Shell + Terminal Animation Library",
             "Web Server",
+            "E-Sports Minecraft Modding and Server DevOps",
             "Single Cycle MIPS Simulator",
             "Streaming Data Pipeline & Exploratory Data Analysis",
+            "JSON-Based Resume Generator",
             "HateMatch - Dating Platform Web Application",
             "Custom Blog Platform",
             "ATK Generator",

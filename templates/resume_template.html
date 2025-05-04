@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ basics.name }} - Resume</title>
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <!-- Header Section -->
+    {% if 'header' in sections %}
     <header>
         <h1>{{ basics.name }}</h1>
         <!-- <p>{{ position_title|default(basics.label) }}</p> -->
@@ -46,16 +48,20 @@
             {% endif %}
         </div>
     </header>
+    {% endif %}
 
     <!-- Summary Section -->
+    {% if 'summary' in sections %}
     {% if basics.summary and basics.summary != "null" %}
     <section class="section">
         <h2>Summary</h2>
         <p>{{ basics.summary }}</p>
     </section>
     {% endif %}
+    {% endif %}
     
     <!-- Education Section - Harvard format typically puts education first -->
+    {% if 'education' in sections %}
     {% if education %}
     <section class="section">
         <div class="section-title">
@@ -78,16 +84,20 @@
                 <p>GPA: {{ edu.score }}</p>
                 {% endif %}
                 {% if edu.courses %}
-                <p>Relevant Courses: {{ edu.courses|join(', ') }}</p>
-                {% endif %}
+                <ul>
+                    <li>Relevant Courses: {{ edu.courses|join(', ') }}.</li>
+                </ul>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
         </div>
     </section>
     {% endif %}
+    {% endif %}
     
     <!-- Work Experience Section -->
+    {% if 'experience' in sections %}
     {% if work %}
     <section class="section">
         <div class="section-title">
@@ -95,8 +105,8 @@
         </div>
         <div class="section-list">
         {% for job in work %}
-        <div class="work-item mb-2 last:mb-0">
-        <div class="item-title mb-1">
+        <div class="work-item">
+        <div class="item-title mb-[4px]">
             <div class="flex flex-row justify-between align-bottom">
                 <h3 class=>{{ job.name }}</h3>
                 <div class="item-date">
@@ -125,8 +135,10 @@
 
     </section>
     {% endif %}
+    {% endif %}
     
     <!-- Selected Projects Section -->
+    {% if 'projects' in sections %}
     <section class="section">
         <div class="section-title">
             <h2>Projects</h2>
@@ -134,13 +146,12 @@
         <div class="section-list">
         {% for project in selected_projects %}
         <div class="project">
-            <div class="project-title item-title items-center flex flex-row align-middle py-auto gap-1">
+            <div class="project-title item-title items-center flex flex-row align-middle py-auto gap-1 justify-between">
                 {% if project.url %}
                 <a class="my-auto" href="{{ project.url }}" target="_blank">{{ project.name }}<i class="ml-[5px] fas fa-external-link-alt fa-xs"></i></a>
                 {% else %}
                 {{ project.name }}
                 {% endif %}
-                <div class="w-1 my-auto pb-[1px] font"></div>
                 <div class="project-tech">{{ project.technologies }}</div>
             </div>
             <div class="item-content">
@@ -155,7 +166,9 @@
         {% endfor %}
         </div>
     </section>
+    {% endif %}
     <!-- Skills Section -->
+    {% if 'skills' in sections %}
     {% if skills %}
     <section class="section">
         <div class="section-title">
@@ -168,7 +181,7 @@
                 {% if skill.keywords %}
                 <div class="item-content">
                     {% for keyword in skill.keywords %}
-                    <span class="keyword">{{ keyword }}</span>
+                    <span class="keyword">{{ keyword.replace(' ', '-') }}</span>
                     {% endfor %}
                 </div>
                 {% endif %}
@@ -177,47 +190,49 @@
         </div>
     </section>
     {% endif %}
+    {% endif %}
     
     <!-- Certificates Section -->
+    {% if 'certifications' in sections %}
     {% if certificates %}
     <section class="section">
         <div class="section-title">
             <h2>Certificates</h2>
         </div>
         <div class="section-list">
-            <ul>
+            <div>
                 {% for cert in certificates %}
-                <li class="certificate-item">
+                <div class="certificate-item">
                     {% if cert.url %}
                     <a href="{{ cert.url }}" target="_blank" class="item-title"><strong>{{ cert.name }}</strong></a>
                     {% else %}
                     <strong class="item-title">{{ cert.name }}</strong>
                     {% endif %}
                     <span class="item-content"> - {{ cert.issuer }} ({{ cert.date }})</span>
-                </li>
+                </div>
                 {% endfor %}
-            </ul>
+            </div>
         </div>
     </section>
     {% endif %}
+    {% endif %}
     
     <!-- Languages Section -->
+    {% if 'languages' in sections %}
     {% if languages %}
     <section class="section">
         <div class="section-title">
             <h2>Languages</h2>
         </div>
         <div class="section-list">
-            <ul>
                 {% for lang in languages %}
-                <li class="language-item">
-                    <strong class="item-title">{{ lang.language }}</strong>: 
-                    <span class="item-content">{{ lang.fluency }}</span>
-                </li>
+                <div class="mb-1 last:mb-0">
+                    <span class="item-title">{{ lang.language }}</span>: <span class="item-content">{{ lang.fluency }}</span>
+                </div>
                 {% endfor %}
-            </ul>
         </div>
     </section>
+    {% endif %}
     {% endif %}
     <script>
         document.addEventListener('DOMContentLoaded', function() {

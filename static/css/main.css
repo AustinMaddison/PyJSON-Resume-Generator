@@ -601,8 +601,8 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-\[4px\] {
+  margin-bottom: 4px;
 }
 
 .ml-\[5px\] {
@@ -615,10 +615,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.w-1 {
-  width: 0.25rem;
 }
 
 .flex-row {
@@ -639,10 +635,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.pb-\[1px\] {
-  padding-bottom: 1px;
 }
 
 .align-middle {
@@ -667,7 +659,7 @@ video {
 }
 
 body {
-  font-family: 'Noto', Arial, Helvetica, sans-serif;
+  font-family: 'Arimo', Arial, Helvetica, sans-serif;
   line-height: 1.25;
   max-width: 8.5in;
   /* Standard paper width */
@@ -689,7 +681,7 @@ header {
 }
 
 header > h1 {
-  font-size: 16pt;
+  font-size: 14pt;
   margin-bottom: 5px;
   text-transform: capitalize;
   font-weight: bold;
@@ -706,7 +698,7 @@ header p {
   justify-content: center;
   gap: 15px;
   margin: 10px 0;
-  font-size: 10pt;
+  font-size: 9.2pt;
 }
 
 .contact-item {
@@ -718,9 +710,10 @@ header p {
 .section-title {
   font-size: 10pt;
   text-transform: uppercase;
-  font-weight: 900;
+  font-family: 'Arimo';
+  font-variation-settings: 'wght' 700, 'wdth' 100;
+  letter-spacing: 0.25px;
   border-bottom: 1px solid #000;
-  margin-top: 15px;
   margin-bottom: 10px;
   /* padding-bottom: 1px; */
 }
@@ -742,13 +735,21 @@ header p {
 }
 
 .section {
-  margin-bottom: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.section:last-child {
+  margin-bottom: 0px;
 }
 
 /* Project styling */
 
 .project {
-  margin-bottom: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.project:last-child {
+  margin-bottom: 0px;
 }
 
 @media print {
@@ -768,27 +769,23 @@ header p {
 }
 
 .item-date, .education-item-date {
-  font-variation-settings: 'wght' 550, 'wdth' 100;
+  font-variation-settings: 'wght' 400, 'wdth' 100;
   font-size: 11.5px;
   letter-spacing: 0.2px;
-  font-family: 'Noto Sans';
-  /* @apply mb-[1px]; */
+}
+
+.education-item-date {
+  font-variation-settings: 'wght' 600, 'wdth' 100;
 }
 
 .work-item-position {
-  font-variation-settings: 'wght' 550, 'wdth' 100;
-  font-family: 'Noto Sans';
-}
-
-.item-content .work-item {
-  margin-bottom: 100px;
+  font-variation-settings: 'wght' 450, 'wdth' 100;
 }
 
 .item-location {
-  font-variation-settings: 'wght' 550, 'wdth' 100;
+  font-variation-settings: 'wght' 400, 'wdth' 100;
   font-size: 11.5px;
   letter-spacing: 0.2px;
-  font-family: 'Noto Sans';
   /* @apply mb-[1px]; */
 }
 
@@ -824,7 +821,11 @@ header p {
 /* Skills section */
 
 .skill-group {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
+}
+
+.skill-group:last-child {
+  margin-bottom: 0px;
 }
 
 .skill-keywords {
@@ -835,13 +836,19 @@ header p {
 
 .keyword {
   padding: 2px 4px;
-  font-size: 11pt;
+  font-family: 'Noto Sans Mono';
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 /* Work experience section */
 
 .work-item {
-  margin-bottom: 10px;
+  margin-bottom: 0.25rem;
+}
+
+.work-item:last-child {
+  margin-bottom: 0px;
 }
 
 .work-item p {
@@ -855,7 +862,11 @@ header p {
 /* Education section */
 
 .education-item {
-  margin-bottom: 10px;
+  margin-bottom: 4px;
+}
+
+.education-item:last-child {
+  margin-bottom: 0px;
 }
 
 .education-item p {
@@ -870,7 +881,7 @@ ul {
 }
 
 .item-content > ul > li {
-  list-style-type: disc;
+  list-style-type: square;
   margin-bottom: 5px;
 }
 

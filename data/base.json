@@ -25,13 +25,23 @@
   "education": [
     {
       "institution": "Mahidol University International College",
-      "area": "B.S in Computer Science, Minor in Applied Mathematics",
+      "area": "B.S in Computer Science, Minor in Applied  Mathematics (In major GPA 3.3)",
       "url": "https://institution.com/",
       "startDate": "2011-01-01",
       "endDate": "2026-01-04",
       "gpa": "3.3",
       "courses": [
-        "Heuristic Optimizaion"
+        "Functional and Parallel Programming",
+        "Data Structures & OOP",
+        "Software System Construction",
+        "Applied Algorithms + Performance Engineering",
+        "Data Mining/Engineering",
+        "Computer Graphics and AR",
+        "Scalable Distributed Systems",
+        "Heuristic Optimization",
+        "Principles of Computer Systems and Architecture",
+        "Simulation for Discrete Mathematics",
+        "Game Design and Development"
       ]
     }
   ],
@@ -123,12 +133,113 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Programming Languages",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+      "C#/.NET",
+      "Java",
+      "Python",
+      "JavaScript",
+      "C/C++",
+      "TypeScript",
+      "Go",
+      "Scala",
+      "Lua"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+      "HTML/CSS",
+      "React",
+      "Hugo",
+      "Tailwind",
+      "Jinja2",
+      "Flask",
+      "Vue",
+      "NextJS",
+      "Bootstrap",
+      "Vite",
+      "REST",
+      "WebAssembly",
+      "Electron",
+      "ThreeJS"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "keywords": [
+      "Jupyter Notebook",
+      "NumPy",
+      "SciPy",
+      "Pandas",
+      "Seaborn",
+      "MatPlotLib",
+      "MATLAB",
+      "TensorFlow",
+      "Apache Spark",
+      "ETL Pipelines",
+      "OpenCV"
+      ]
+    },
+    {
+      "name": "Graphics & 3D",
+      "keywords": [
+      "OpenGL",
+      "WebGL",
+      "GLSL",
+      "Godot",
+      "Unity",
+      "UE5",
+      "VEX",
+      "Houdini",
+      "Maya",
+      "Blender",
+      "Cinema 4D",
+      "Redshift",
+      "Adobe Suite",
+      "ComfyUI",
+      "DearImGUI",
+      "DirectX",
+      "Vulkan",
+      "CUDA",
+      "OpenCL",
+      "FFMPEG"
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "keywords": [
+      "Git",
+      "Unix",
+      "Premake",
+      "CMAKE",
+      "LaTeX",
+      "VSCode",
+      "JetBrains IDE",
+      "Spring-Boot",
+      "AWS",
+      "Firebase",
+      "JUnit",
+      "Postman",
+      "GitHub Actions",
+      "Kafka",
+      "Apache Airflow",
+      "Kibana-ElasticSearch",
+      "Docker",
+      "Kubernetes",
+      "VIM/NVIM",
+      "Helix",
+      "Google Workspace API"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+      "Firebase",
+      "Redis",
+      "SQL",
+      "MySQL",
+      "PostgreSQL"
       ]
     }
   ],
@@ -136,6 +247,10 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Thai",
+      "fluency": "Conversational"
     }
   ],
   "interests": [
@@ -151,16 +266,6 @@
     {
       "name": "Jane Doe",
       "reference": "Reference…"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Project",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
     }
   ]
 }
