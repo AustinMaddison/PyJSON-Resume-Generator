@@ -5,8 +5,8 @@
             "technologies": "Vue, Vuetify, Java, Spring",
             "description": "Dating platform web application that matches users based on shared dislikes and opposing preferences.",
             "highlights": [
-                "<strong>Designed and developed</strong> the entire frontend using Vue and Vuetify, including user authentication, profile management, and interactive matching interface.",
-                "Engineered <strong>custom Vuetify theme</strong> and a floating cursor UX for intuitive swipe gestures, enhancing user experience.",
+                "<strong>Designed and developed</strong> the entire frontend using Vue and Vuetify, including <strong>user authentication</strong>, <strong>profile management</strong>, and simple interactive <strong>matching interface</strong>.",
+                "Engineered <strong>custom Vuetify theme</strong> and a <strong>context sensitive floating cursor</strong> for fun profile navigation, elevating UX.",
                 "Integrated Java Spring backend for <strong>secure user authentication</strong> and data management.",
                 "Prototyped <strong>matching algorithm</strong> using pairwise user preference negation, enabling MVP-level functionality with future optimization in mind."
             ],
@@ -29,8 +29,8 @@
             "technologies": "Electron, Python, Blender CLI",
             "description": "Desktop application that renders a photorealistic ATK test result with handwritten timestamps.",
             "highlights": [
-                "Developed a <strong>desktop app</strong> enabling users to input metadata and generate photorealistic ATK test images with handwritten timestamps with preset environments.",
-                "Modeled and surfaced <strong>high-fidelity 3D ATK asset</strong>.",
+                "Developed a <strong>desktop app</strong> enabling users to input metadata and <strong>generate photorealistic ATK test images</strong> with handwritten timestamps with preset environments.",
+                "Modeled and surfaced <strong>high-poly 3D ATK asset</strong>. Using blender, substance painter and designer.",
                 "Engineered a Python backend with <strong>Blender CLI</strong> to automate input textures and render jobs based on user-defined parameters."
             ],
             "url": "www.example.com"
@@ -40,8 +40,8 @@
             "technologies": "C#, MATLAB, HLSL, Unity HDRP",
             "description": "Post-processing Bokeh blur effect using separable convolution in imaginary phasor space.",
             "highlights": [
-                "Implemented a post-processing Bokeh blur effect with <strong>O(n) runtime</strong> using separable convolution in imaginary phasor space.",
-                "Ported algorithm from MATLAB to <strong>Unity HDRP</strong> using ShaderLab HLSL, enabling real-time cinematic lens effects."
+                "Implemented an post-processing Bokeh blur algorithms that has <strong>O(n) runtime</strong> from the typical O(n^2) using separable convolution in imaginary phasor space.",
+                "Protoyped algorithm in MATLAB using CUDA then ported to <strong>Unity HDRP</strong> using ShaderLab HLSL, enabling real-time cinematic lens effects."
             ],
             "url": "www.example.com"
         },
@@ -205,13 +205,13 @@
         {
             "name": "JSON-Based Resume Generator",
             "technologies": "Flask, Jinja2, Tailwind CSS, PostCSS, JavaScript, SSE",
-            "description": "Batch resume generator that creates tailored resumes for different job positions, ordering content by relevance.",
+            "description": "Batch resume generator that creates tailored resumes for different job positions, ordering content by relevance map.",
             "highlights": [
                 "Engineered a <strong>Flask and Jinja2</strong> web application that generates position-specific resumes from JSON data sources.",
                 "Implemented <strong>server-sent events</strong> (SSE) via subprocesses to provide real-time updates during resume generation.",
                 "Developed a <strong>filesystem watching system</strong> that automatically rebuilds resumes when source content changes.",
-                "Created an index interface to browse and preview all generated resumes for each position.",
-                "Designed a <strong>modern, responsive theme</strong> based on Harvard style using Tailwind CSS with PostCSS processing."
+                "Created an <strong>index interface</strong> to <strong>browse all generated resumes</strong> for each position.",
+                "Designed a theme <strong>modern take on Harvard style resume</strong> using Tailwind CSS with PostCSS processing."
             ],
             "url": "www.example.com"
         }
