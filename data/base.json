@@ -68,12 +68,12 @@
       "startDate": "2023-11-01",
       "endDate": "2024-03-01",
       "location": "Ari, Bangkok",
-      "summary": "Collaborated with design and innovation teams to create 3-player 3D game installation ``Seemless City`` for Bangkok Design Week 2024.",
+      "summary": "Collaborated with design and innovation teams to create <strong>3-player 3D game installation ``Seemless City`` for Bangkok Design Week 2024</strong>.",
       "highlights": [
-      "Implemented <strong>real-time rendering features</strong> such as procedural meshes, <strong>HLSL shaders</strong> using Unity's C# framework and high definition render pipeline.", 
-      "Highlight features: <strong>dynamic multiple focal point vignetting</strong> with variable feathering using signed distance fields (SDF), inertia animation hooks, fluttering cloth using multi-scale perlin noise wind, SDF particle collisions, bloom/glare.",  
+      "Implemented <strong>real-time rendering features</strong> such as <strong>procedural meshes</strong>, <strong>HLSL shaders</strong> using Unity's C# framework and high definition render pipeline.", 
+      "Highlight features: <strong>dynamic multiple focal point vignetting</strong> with variable feathering using signed distance fields (SDF), inertia <strong>animation hooks</strong>, fluttering cloth using <strong>multi-scale perlin noise wind</strong>, SDF <strong>particle collisions</strong>, <strong>bloom/glare</strong>.",  
       "Extended <strong>Intel RealSense's C# API</strong> to allow for depth normalization and remapping to be used in calibration tool onsite.",
-      "The reception was overwhelmingly positive from <strong>200+ participant surveys</strong> and optional comments described that the full-body motion controls, multiplayer and 3D aspects were refreshing and unique."
+      "The reception was <strong>overwhelmingly positive from 200+ participant surveys</strong> and optional comments described that the full-body motion controls, multiplayer and 3D aspects were refreshing and unique."
       ],
       "url": "https://company.com"
     },
@@ -83,11 +83,11 @@
       "startDate": "2023-08-01",
       "endDate": "2023-09-01",
       "location": "Ari, Bangkok",
-      "summary": "Developed a real-time 3D installation project ``Hello Mascot`` for the firm's product portfolio as their part of diversifying the kinds of digital products they can give to clients.",
+      "summary": "Developed a <strong>real-time motion capture 3D installation</strong> project ``Hello Mascot`` for the firm's product portfolio as their part of diversifying the kinds of digital products they can give to clients.",
       "highlights": [
       "Collaborated with the innovation team's C# developer to implement <strong>motion controls</strong> using <strong>Google's MediaPipe</strong> library for pose landmark detection from external camera feed to interact with virtual character and world.",
-      "Implemented <strong>shaders for vegetation and cloud wind</strong>, stop motion clay river water wakes, stop motion clay character and <strong>fully gpu-driven 2D facial animations</strong> using multi UVs and sin/cos functions for scheduling expressions.",
-      "Modeled, textured, animated and lit environmental prop and character assets.",
+      "Implemented <strong>shaders for vegetation and cloud wind, stop motion clay river water wakes, stop motion clay character</strong> and <strong>fully gpu-driven 2D facial animations</strong> using multi UVs and sin/cos functions for scheduling expressions.",
+      "Modeled, textured, animated, layout and lit environment props and character assets using high-poly to low-poly pipeline.",
       "The project's reception with colleagues was very positive and <strong>surpassed expectations</strong>."
       ],
       "url": "https://company.com"
