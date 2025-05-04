@@ -14,7 +14,7 @@
         },
         {
             "name": "Custom Blog Platform",
-            "technologies": "Hugo, Tailwind CSS, Three.js",
+            "technologies": "Hugo, Tailwind, Three.js",
             "description": "Fully responsive static blog platform with a custom Hugo theme and layouts.",
             "highlights": [
                 "Built a <strong>UI framework</strong> with custom snippets for grid-based elements, dropdown reveals, animated thumbnails (WebM), embedded Three.js, and filtering using tags and categories.",
@@ -26,7 +26,7 @@
         },
         {
             "name": "ATK Generator",
-            "technologies": "Electron, Python, Blender CLI",
+            "technologies": "Electron, Python, Blender-CLI",
             "description": "Desktop application that renders a photorealistic ATK test result with handwritten timestamps.",
             "highlights": [
                 "Developed a <strong>desktop app</strong> enabling users to input metadata and <strong>generate photorealistic ATK test images</strong> with handwritten timestamps with preset environments.",
@@ -37,17 +37,17 @@
         },
         {
             "name": "Separable Convolution Circular Lens Blur",
-            "technologies": "C#, MATLAB, HLSL, Unity HDRP",
+            "technologies": "C#, MATLAB, HLSL, Unity-URP",
             "description": "Post-processing Bokeh blur effect using separable convolution in imaginary phasor space.",
             "highlights": [
                 "Implemented an post-processing Bokeh blur algorithms that has <strong>O(n) runtime</strong> from the typical O(n^2) using separable convolution in imaginary phasor space.",
-                "Protoyped algorithm in MATLAB using CUDA then ported to <strong>Unity HDRP</strong> using ShaderLab HLSL, enabling real-time cinematic lens effects."
+                "Protoyped algorithm in MATLAB then ported to <strong>Unity HDRP</strong> using ShaderLab HLSL, enabling real-time cinematic lens effects."
             ],
             "url": "www.example.com"
         },
         {
             "name": "Interactive Pathfinding Algorithm Visualizer",
-            "technologies": "C#, HLSL, Unity URP",
+            "technologies": "C#, HLSL, Unity-URP",
             "description": "Real-time algorithm visualizer supporting multiple search algorithms with interactive UI.",
             "highlights": [
                 "Built a real-time algorithm visualizer supporting <strong>multiple search algorithms</strong> with modular architecture.",
@@ -58,7 +58,7 @@
         },
         {
             "name": "Faithful Plant Placement",
-            "technologies": "VEX, OpenCL, C++, Python, HLSL, Houdini Engine, UE5",
+            "technologies": "VEX, OpenCL, C++, Python, HLSL, Houdini-Engine, UE5",
             "description": "Procedural simulation tools for vegetation placement in Unreal Engine 5 based on environmental data.",
             "highlights": [
                 "Developed <strong>procedural simulation tools</strong> for vegetation placement using climate, topology, and species data.",
@@ -80,7 +80,7 @@
         },
         {
             "name": "GPU-Based Monte Carlo Global Illumination & Irradiance Field Probes",
-            "technologies": "C++, GLSL, Compute Shaders, Dear IMGUI",
+            "technologies": "C++, GLSL, Compute-Shaders, Dear-IMGUI",
             "description": "Global illumination system using Monte Carlo methods and irradiance probes for real-time lighting.",
             "highlights": [
                 "Developed a <strong>high-performance GI system</strong> with Monte Carlo methods for accurate light transport simulation.",
@@ -92,7 +92,7 @@
         },
         {
             "name": "Hello Mascot",
-            "technologies": "Unity, C#, Google MediaPipe",
+            "technologies": "Unity, C#, Google-MediaPipe",
             "description": "Real-time mascot experience demo with full-body interactions via pose tracking.",
             "highlights": [
                 "Enabled <strong>full-body interactions</strong> using Google MediaPipe pose tracking.",
@@ -104,7 +104,7 @@
         },
         {
             "name": "Seamless City - Bangkok Design Week 2024",
-            "technologies": "Unity, C#, Intel RealSense",
+            "technologies": "Unity, C#, Intel-RealSense",
             "description": "3-player 3D installation showcased at Bangkok Design Week 2024.",
             "highlights": [
                 "Implemented <strong>advanced graphics</strong>: multifocal vignetting, cloth dynamics, SDF-based collisions, and interactive bloom/glare.",
@@ -115,7 +115,7 @@
         },
         {
             "name": "Mini Sky Engine",
-            "technologies": "OpenGL, C#, GLSL, OpenTK, Dear IMGUI",
+            "technologies": "OpenGL, C#, GLSL, OpenTK, Dear-IMGUI",
             "description": "Real-time sky rendering engine simulating atmospheric effects.",
             "highlights": [
                 "Simulated <strong>atmospheric effects</strong> with sunlight, sky scattering, and volumetric clouds using GPU LUTs.",
@@ -191,7 +191,7 @@
         },
         {
             "name": "E-Sports Minecraft Modding and Server DevOps",
-            "technologies": "Java, Docker, HTML, JS, FFmpeg (WebM), Python, Unix",
+            "technologies": "Java, Docker, HTML, JS, FFmpeg-(WebM), Python, Unix",
             "description": "Managed E-Sports competition logistics, developed mods, and deployed game servers for Animation Games Club Minecraft competitions: UHC, Survival Games and Sky Wars.",
             "highlights": [
             "Managed <strong>end-to-end competition logistics</strong>, including scheduling and participant coordination.",
@@ -204,7 +204,7 @@
         },
         {
             "name": "JSON-Based Resume Generator",
-            "technologies": "Flask, Jinja2, Tailwind CSS, PostCSS, JavaScript, SSE",
+            "technologies": "Flask, Jinja2, Tailwind, PostCSS, JavaScript, SSE",
             "description": "Batch resume generator that creates tailored resumes for different job positions, ordering content by relevance map.",
             "highlights": [
                 "Engineered a <strong>Flask and Jinja2</strong> web application that generates position-specific resumes from JSON data sources.",
