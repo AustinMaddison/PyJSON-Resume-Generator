@@ -95,30 +95,34 @@
         </div>
         <div class="section-list">
         {% for job in work %}
-        <div class="work-item">
+        <div class="work-item mb-2 last:mb-0">
+        <div class="item-title mb-1">
             <div class="flex flex-row justify-between align-bottom">
-            <h3 class="item-title">{{ job.name }}</h3>
-                <div class="flex">
-                    <div class="item-date">
-                        {{ job.startDate | datetime_format | upper }} - {{ ( job.endDate | datetime_format ) |default('Present') | upper }}
-                    </div>
+                <h3 class=>{{ job.name }}</h3>
+                <div class="item-date">
+                    {{ job.startDate | datetime_format }} - {{ ( job.endDate | datetime_format ) |default('Present') }}
                 </div>
             </div>
-
-            <p>{{ job.position }}</p>
-            <div class="item-content">
-                <p>{{ job.summary }}</p>
-                {% if job.highlights %}
-                <ul>
-                    {% for highlight in job.highlights %}
-                    <li>{{ highlight }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-                </div>
+            <div class="flex flex-row justify-between align-bottom">
+                <div class="work-item-position">{{ job.position }}</div>
+                <div class="item-location">{{ job.location }}</div>
+            </div>
+        </div>
+        <div class="item-content">
+            <p>{{ job.summary }}</p>
+            {% if job.highlights %}
+            <ul>
+                {% for highlight in job.highlights %}
+                <li>{{ highlight }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </div>
         </div>
         {% endfor %}
         </div>
+    </div>
+
     </section>
     {% endif %}
     
@@ -130,9 +134,9 @@
         <div class="section-list">
         {% for project in selected_projects %}
         <div class="project">
-            <div class="project-title item-title flex flex-row align-middle py-auto">
+            <div class="project-title item-title items-center flex flex-row align-middle py-auto gap-1">
                 {% if project.url %}
-                <a class="my-auto" href="{{ project.url }}" target="_blank">{{ project.name }} <i class="fas fa-external-link-alt fa-xs"></i></a>
+                <a class="my-auto" href="{{ project.url }}" target="_blank">{{ project.name }}<i class="ml-[5px] fas fa-external-link-alt fa-xs"></i></a>
                 {% else %}
                 {{ project.name }}
                 {% endif %}

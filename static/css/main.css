@@ -597,6 +597,18 @@ video {
   margin-bottom: auto;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.ml-\[5px\] {
+  margin-left: 5px;
+}
+
 .flex {
   display: flex;
 }
@@ -613,8 +625,16 @@ video {
   flex-direction: row;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .border {
@@ -707,15 +727,10 @@ header p {
 
 .section-list {
   margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 
 .item-title {
   font-weight: bold;
-  margin-bottom: 3px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
   font-size: 9.5pt;
 }
 
@@ -724,7 +739,6 @@ header p {
 
 .item-content {
   margin-left: 0.75rem;
-  margin-right: 0.75rem;
 }
 
 .section {
@@ -754,11 +768,28 @@ header p {
 }
 
 .item-date, .education-item-date {
-  font-variation-settings: 'wght' 600, 'wdth' 100;
+  font-variation-settings: 'wght' 550, 'wdth' 100;
   font-size: 11.5px;
   letter-spacing: 0.2px;
   font-family: 'Noto Sans';
-  margin-bottom: 1px;
+  /* @apply mb-[1px]; */
+}
+
+.work-item-position {
+  font-variation-settings: 'wght' 550, 'wdth' 100;
+  font-family: 'Noto Sans';
+}
+
+.item-content .work-item {
+  margin-bottom: 100px;
+}
+
+.item-location {
+  font-variation-settings: 'wght' 550, 'wdth' 100;
+  font-size: 11.5px;
+  letter-spacing: 0.2px;
+  font-family: 'Noto Sans';
+  /* @apply mb-[1px]; */
 }
 
 .project-tech {
@@ -847,4 +878,8 @@ ul {
 
 .small {
   font-size: 10pt;
+}
+
+.last\:mb-0:last-child {
+  margin-bottom: 0px;
 }
