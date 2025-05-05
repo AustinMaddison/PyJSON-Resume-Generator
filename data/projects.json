@@ -47,9 +47,9 @@
       {
         "name": "Interactive Pathfinding Algorithm Visualizer",
         "technologies": "C#, HLSL, Unity-URP",
-        "description": "<strong>Real-time</strong> pathfinding algorithm visualizer with modular search support and interactive UI.",
+        "description": "<strong>Real-time pathfinding algorithm visualizer</strong> with modular search support and interactive UI.",
         "highlights": [
-          "Built a real-time algorithm visualizer supporting <strong>multiple search algorithms</strong> with modular architecture.",
+          "Built a real-time algorithm visualizer supporting <strong>multiple search algorithms</strong> (A*, BFS, Drikjsta, Greedy) with modular architecture.",
           "Developed an <strong>event-driven UI system</strong> with dynamic updates and heuristic cost overlays.",
           "Integrated <strong>real-time performance metrics</strong> and intuitive grid editor for scenario customization."
         ],

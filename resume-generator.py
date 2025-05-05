@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# filepath: /home/austin/dev/resume-generator/resume-generator.py
-
 import json
 import os
 import sys
