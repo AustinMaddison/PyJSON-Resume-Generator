@@ -20,17 +20,17 @@ Just like the name suggests, this tool is built with Python + JSON.
 
 <!-- ## Demo Videos
 
-### Live Editing with Watch Mode
+<!-- ### Live Editing with Watch Mode -->
 <!-- Add link to demo video showing file changes and auto-reload -->
-[Watch Mode Demo](https://example.com/demo-video) - See how changes to your JSON files instantly update your resume
+<!-- [Watch Mode Demo](https://example.com/demo-video) - See how changes to your JSON files instantly update your resume -->
 
-### Position-Based Project Ordering
+<!-- ### Position-Based Project Ordering -->
 <!-- Add link to demo video showing different resume outputs -->
-[Position Ordering Demo](https://example.com/ordering-demo) - See how projects are automatically ordered by relevance
+<!-- [Position Ordering Demo](https://example.com/ordering-demo) - See how projects are automatically ordered by relevance -->
 
-### PDF Export with Page Breaks
+<!-- ### PDF Export with Page Breaks -->
 <!-- Add link to demo video showing PDF export -->
-[PDF Export Demo](https://example.com/pdf-demo) - See how to export to PDF with proper page breaks -->
+<!-- [PDF Export Demo](https://example.com/pdf-demo) - See how to export to PDF with proper page breaks -->
 
 ## Installation
 
