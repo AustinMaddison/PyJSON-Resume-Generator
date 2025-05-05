@@ -53,10 +53,10 @@
 
     <!-- Summary Section -->
     {% if 'summary' in sections %}
-    {% if basics.summary and basics.summary != "null" %}
-    <section class="section">
-        <h2>Summary</h2>
-        <p>{{ basics.summary }}</p>
+    {% if position_summary and position_summary != "null" %}
+    <section class="section mx-auto text-center">
+        <!-- <h2>Summary</h2> -->
+        <p>{{ position_summary }}</p>
     </section>
     {% endif %}
     {% endif %}

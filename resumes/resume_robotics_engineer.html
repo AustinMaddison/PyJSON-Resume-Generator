@@ -54,6 +54,11 @@
     <!-- Summary Section -->
     
     
+    <section class="section mx-auto text-center">
+        <!-- <h2>Summary</h2> -->
+        <p>Designs simulation tools, rendering for visualization and editors and implementing pathfinding.</p>
+    </section>
+    
     
     
     <!-- Education Section - Harvard format typically puts education first -->
@@ -208,15 +213,15 @@
                 
                 <a class="my-auto" href="www.example.com" target="_blank">Single Cycle MIPS Simulator<i class="ml-[5px] fas fa-external-link-alt fa-xs"></i></a>
                 
-                <div class="project-tech">C</div>
+                <div class="project-tech">C++</div>
             </div>
             <div class="item-content">
-            <p><strong>Instruction-level MIPS simulator</strong> with execution tracing and endian-aware memory.</p>
+            <p><strong>Developed an instruction-level simulator</strong> for a subset of the <strong>MIPS architecture</strong>, supporting execution with <strong>accurate state transitions</strong> and <strong>core instruction emulation</strong> (arithmetic, branching, memory, system calls).</p>
             <ul>
                 
-                <li>Implemented <strong>instruction emulation</strong> for arithmetic, branching, memory, and syscall operations.</li>
+                <li><strong>Implemented instruction parsing</strong>, <strong>decoding</strong>, and <strong>shell-based execution controls</strong> (<code>go</code>, <code>run &lt;n&gt;</code>, <code>mdump</code>, <code>rdump</code>, etc.) with structured modeling of <strong>registers</strong>, <strong>memory</strong>, and <strong>program counter</strong>.</li>
                 
-                <li>Integrated <strong>endian-aware memory</strong> and debugging features.</li>
+                <li><strong>Integrated endian-aware memory functions</strong> and <strong>verified correctness</strong> through simulation logs, register dumps, and extensive debugging.</li>
                 
             </ul>
             </div>
@@ -254,11 +259,11 @@
             <p><strong>Custom Linux shell</strong> with animated terminal UX, command parsing, and job control.</p>
             <ul>
                 
-                <li>Implemented <strong>command parsing</strong>, job control, and I/O redirection using fork/exec/wait.</li>
+                <li><strong>Built a simplified Linux shell</strong> with interactive and batch modes, featuring <strong>custom command parsing</strong>, <strong>built-in commands</strong> (<code>echo</code>, <code>!!</code>, <code>jobs</code>, etc.), and <strong>I/O redirection</strong> using <code>fork</code>, <code>exec</code>, and <code>wait</code>.</li>
                 
-                <li>Designed a <strong>bash-like UX</strong> with command history and true-color formatting.</li>
+                <li><strong>Implemented job control</strong> for <strong>foreground/background processes</strong>, <strong>signal handling</strong> (<code>SIGINT</code>, <code>SIGTSTP</code>), and <strong>asynchronous notifications</strong> for background jobs.</li>
                 
-                <li>Added splash screen animations using <strong>flip-book rendering</strong>.</li>
+                <li><strong>Designed a bash-like UX</strong> with <strong>prev command history</strong>, <strong>custom prompts</strong>, <strong>true-color text formatting</strong>, and <strong>splash screen animations</strong> using flip-book rendering and animated UI elements.</li>
                 
             </ul>
             </div>
@@ -277,11 +282,11 @@
                 
                 <li>Enabled <strong>full-body interactions</strong> using Google MediaPipe pose tracking.</li>
                 
-                <li>Designed <strong>GPU shaders</strong> for stylized visuals and procedural facial animation.</li>
+                <li>Designed <strong>GPU shaders</strong> for stylized visuals and procedural sprite based facial animation via UV sets and blending.</li>
                 
                 <li>Modeled and animated high-fidelity characters for <strong>live installations</strong>.</li>
                 
-                <li>Delivered a successful <strong>proof-of-concept</strong> for internal commercialization.</li>
+                <li>Delivered a successful <strong>proof-of-concept</strong> for internal company's product portfolio.</li>
                 
             </ul>
             </div>
@@ -307,6 +312,29 @@
                 <li>Built static websites and assets for onboarding and competition information using GitHub Pages.</li>
                 
                 <li>Created a <strong>registration dashboard</strong> using Python and Google Workspace API for seamless participant management.</li>
+                
+            </ul>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-title item-title items-center flex flex-row align-middle py-auto gap-1 justify-between">
+                
+                <a class="my-auto" href="www.example.com" target="_blank">HateMatch - Dating Platform Web Application<i class="ml-[5px] fas fa-external-link-alt fa-xs"></i></a>
+                
+                <div class="project-tech">Vue, Vuetify, Java, Spring</div>
+            </div>
+            <div class="item-content">
+            <p><strong>Dating platform</strong> web application that connects users through shared dislikes and contrasting preferences.</p>
+            <ul>
+                
+                <li><strong>Designed and developed</strong> the entire frontend using Vue and Vuetify, including <strong>user authentication</strong>, <strong>profile management</strong>, and simple interactive <strong>matching interface</strong>.</li>
+                
+                <li>Engineered <strong>custom Vuetify theme</strong> and a <strong>context sensitive floating cursor</strong> for fun profile navigation, elevating UX.</li>
+                
+                <li>Integrated Java Spring backend for <strong>secure user authentication</strong> and data management.</li>
+                
+                <li>Prototyped <strong>matching algorithm</strong> using pairwise user preference negation, enabling MVP-level functionality with future optimization in mind.</li>
                 
             </ul>
             </div>

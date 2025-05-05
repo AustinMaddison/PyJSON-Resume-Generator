@@ -54,6 +54,11 @@
     <!-- Summary Section -->
     
     
+    <section class="section mx-auto text-center">
+        <!-- <h2>Summary</h2> -->
+        <p>Implements rendering and GPU compute techniques for real-time visual effects, engine development and GPGPU applications.</p>
+    </section>
+    
     
     
     <!-- Education Section - Harvard format typically puts education first -->
@@ -216,11 +221,11 @@
                 
                 <li>Developed a <strong>high-performance GI system</strong> with Monte Carlo methods for accurate light transport simulation.</li>
                 
-                <li>Implemented <strong>GPU-based compute shaders</strong> for accelerating real-time GI using ray marching in SDF.</li>
+                <li>Implemented <strong>GPU-based compute shaders</strong> for ray marching in Signed Distance Field (SDF) environments.</li>
                 
-                <li>Designed <strong>irradiance probe system</strong> optimizing indirect lighting in dynamic scenes.</li>
+                <li>Designed an <strong>irradiance probe system</strong> for indirect lighting, optimizing computational efficiency.</li>
                 
-                <li>Benchmarked GI approaches demonstrating <strong>8× speed improvements</strong>.</li>
+                <li>Benchmarked <strong>Monte Carlo GI vs. irradiance probes</strong>, showing <strong>8x speedup</strong> while retaining realism.</li>
                 
             </ul>
             </div>
@@ -279,9 +284,9 @@
                 
                 <li>Simulated <strong>atmospheric effects</strong> with sunlight, sky scattering, and volumetric clouds using GPU LUTs.</li>
                 
-                <li>Raymarched <strong>dynamic volumetric clouds</strong> using FBM noise fields.</li>
+                <li>Built raymarcher render engine with <strong>FBM noise</strong> and procedural density shaping for clouds.</li>
                 
-                <li>Built <strong>engine architecture</strong> in C# with shader management and IMGUI tools.</li>
+                <li>Built <strong>engine architecture</strong> in C# with shader management and IMGUI for debug GUI.</li>
                 
             </ul>
             </div>
@@ -300,9 +305,30 @@
                 
                 <li>Simulated <strong>optical effects</strong> like parallax shadows, shimmer, and backlight bleed.</li>
                 
-                <li>Engineered a <strong>procedural pixel matrix</strong> using GLSL for authentic LCD rendering.</li>
+                <li><strong>Engineered</strong> a <strong>procedural pixel matrix</strong> using <strong>GLSL</strong> for authentic LCD rendering with arbitrary buffer inputs.</li>
                 
                 <li>Optimized shader performance for <strong>real-time applications</strong>.</li>
+                
+            </ul>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-title item-title items-center flex flex-row align-middle py-auto gap-1 justify-between">
+                
+                <a class="my-auto" href="www.example.com" target="_blank">Interactive Pathfinding Algorithm Visualizer<i class="ml-[5px] fas fa-external-link-alt fa-xs"></i></a>
+                
+                <div class="project-tech">C#, HLSL, Unity-URP</div>
+            </div>
+            <div class="item-content">
+            <p><strong>Real-time</strong> pathfinding algorithm visualizer with modular search support and interactive UI.</p>
+            <ul>
+                
+                <li>Built a real-time algorithm visualizer supporting <strong>multiple search algorithms</strong> with modular architecture.</li>
+                
+                <li>Developed an <strong>event-driven UI system</strong> with dynamic updates and heuristic cost overlays.</li>
+                
+                <li>Integrated <strong>real-time performance metrics</strong> and intuitive grid editor for scenario customization.</li>
                 
             </ul>
             </div>

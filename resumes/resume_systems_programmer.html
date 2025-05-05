@@ -54,6 +54,11 @@
     <!-- Summary Section -->
     
     
+    <section class="section mx-auto text-center">
+        <!-- <h2>Summary</h2> -->
+        <p>Creates software from OS-level tools to multithreaded servers, optimizing efficiency in C/C++.</p>
+    </section>
+    
     
     
     <!-- Education Section - Harvard format typically puts education first -->
@@ -214,11 +219,11 @@
             <p><strong>Custom Linux shell</strong> with animated terminal UX, command parsing, and job control.</p>
             <ul>
                 
-                <li>Implemented <strong>command parsing</strong>, job control, and I/O redirection using fork/exec/wait.</li>
+                <li><strong>Built a simplified Linux shell</strong> with interactive and batch modes, featuring <strong>custom command parsing</strong>, <strong>built-in commands</strong> (<code>echo</code>, <code>!!</code>, <code>jobs</code>, etc.), and <strong>I/O redirection</strong> using <code>fork</code>, <code>exec</code>, and <code>wait</code>.</li>
                 
-                <li>Designed a <strong>bash-like UX</strong> with command history and true-color formatting.</li>
+                <li><strong>Implemented job control</strong> for <strong>foreground/background processes</strong>, <strong>signal handling</strong> (<code>SIGINT</code>, <code>SIGTSTP</code>), and <strong>asynchronous notifications</strong> for background jobs.</li>
                 
-                <li>Added splash screen animations using <strong>flip-book rendering</strong>.</li>
+                <li><strong>Designed a bash-like UX</strong> with <strong>prev command history</strong>, <strong>custom prompts</strong>, <strong>true-color text formatting</strong>, and <strong>splash screen animations</strong> using flip-book rendering and animated UI elements.</li>
                 
             </ul>
             </div>
@@ -232,12 +237,12 @@
                 <div class="project-tech">C++</div>
             </div>
             <div class="item-content">
-            <p><strong>Multithreaded HTTP/1.1 server</strong> with CGI support and YACC-based request parsing.</p>
+            <p><strong>Built a multi-threaded web server</strong> in <strong>C++</strong>, supporting a subset of <strong>HTTP/1.1 (RFC2616)</strong> and <strong>CGI-based POST request handling (RFC3875)</strong>.</p>
             <ul>
                 
-                <li>Implemented <strong>HTTP/1.1 protocol</strong> with request parsing, response generation, and CGI-based POST handling.</li>
+                <li>I<strong>Implemented request parsing</strong>, <strong>response generation</strong>, and <strong>dynamic content integration</strong> using <strong>YACC</strong> for structured input processing.</li>
                 
-                <li>Used YACC for structured input and <strong>multithreading</strong> for concurrent connections.</li>
+                <li><strong>Designed concurrency architecture</strong> to efficiently handle multiple client connections and serve dynamic responses in real-time using threads.</li>
                 
             </ul>
             </div>
@@ -273,15 +278,15 @@
                 
                 <a class="my-auto" href="www.example.com" target="_blank">Single Cycle MIPS Simulator<i class="ml-[5px] fas fa-external-link-alt fa-xs"></i></a>
                 
-                <div class="project-tech">C</div>
+                <div class="project-tech">C++</div>
             </div>
             <div class="item-content">
-            <p><strong>Instruction-level MIPS simulator</strong> with execution tracing and endian-aware memory.</p>
+            <p><strong>Developed an instruction-level simulator</strong> for a subset of the <strong>MIPS architecture</strong>, supporting execution with <strong>accurate state transitions</strong> and <strong>core instruction emulation</strong> (arithmetic, branching, memory, system calls).</p>
             <ul>
                 
-                <li>Implemented <strong>instruction emulation</strong> for arithmetic, branching, memory, and syscall operations.</li>
+                <li><strong>Implemented instruction parsing</strong>, <strong>decoding</strong>, and <strong>shell-based execution controls</strong> (<code>go</code>, <code>run &lt;n&gt;</code>, <code>mdump</code>, <code>rdump</code>, etc.) with structured modeling of <strong>registers</strong>, <strong>memory</strong>, and <strong>program counter</strong>.</li>
                 
-                <li>Integrated <strong>endian-aware memory</strong> and debugging features.</li>
+                <li><strong>Integrated endian-aware memory functions</strong> and <strong>verified correctness</strong> through simulation logs, register dumps, and extensive debugging.</li>
                 
             </ul>
             </div>
@@ -298,11 +303,36 @@
             <p><strong>Real-time data pipeline</strong> integrating financial and event streams for time-series analysis.</p>
             <ul>
                 
-                <li><strong>Ingested data</strong> from Yahoo Finance and GDELT using Kafka.</li>
+                <li><strong>Developed a real-time data pipeline</strong> integrating <strong>financial market data</strong> (Yahoo Finance) and <strong>global event streams</strong> (GDELT) using <strong>Kafka</strong>, with <strong>ETL workflows</strong> for ingestion, cleaning, and transformation.</li>
                 
-                <li>Optimized storage using <strong>Snappy-compressed Parquet</strong> and SQL analytics via DuckDB.</li>
+                <li><strong>Optimized data storage</strong> by converting <code>.CSV.zip</code> to <strong>Snappy-compressed Parquet</strong>, enabling fast, SQL-based analytics via <strong>DuckDB</strong> and reducing query latency.</li>
                 
-                <li>Performed <strong>time-series analysis</strong> and hypothesis testing to uncover market-news relationships.</li>
+                <li><strong>Applied time-series analysis</strong> and <strong>statistical hypothesis testing</strong> (Pearson correlation, Granger causality) to uncover relationships between <strong>media coverage</strong> and <strong>stock market movements</strong> across sectors.</li>
+                
+            </ul>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-title item-title items-center flex flex-row align-middle py-auto gap-1 justify-between">
+                
+                <a class="my-auto" href="www.example.com" target="_blank">JSON-Based Resume Generator<i class="ml-[5px] fas fa-external-link-alt fa-xs"></i></a>
+                
+                <div class="project-tech">Flask, Jinja2, Tailwind, PostCSS, JavaScript, SSE</div>
+            </div>
+            <div class="item-content">
+            <p><strong>Automated resume generator</strong> creating position-specific resumes from JSON using Flask and Jinja2.</p>
+            <ul>
+                
+                <li>Engineered a <strong>Flask and Jinja2</strong> web application that generates position-specific resumes from JSON data sources.</li>
+                
+                <li>Implemented <strong>server-sent events</strong> (SSE) via subprocesses to provide real-time updates during resume generation.</li>
+                
+                <li>Developed a <strong>filesystem watching system</strong> that automatically rebuilds resumes when source content changes.</li>
+                
+                <li>Created an <strong>index interface</strong> to <strong>browse all generated resumes</strong> for each position.</li>
+                
+                <li>Designed a <strong>modern Harvard-style</strong> theme using Tailwind CSS with PostCSS processing.</li>
                 
             </ul>
             </div>
