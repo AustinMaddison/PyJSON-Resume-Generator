@@ -32,7 +32,7 @@ sse_lock = Lock()
 
 # Default configuration
 DEFAULT_CONFIG = {
-    'include_sections': ['header', 'summary', 'skills', 'experience', 'education', 'projects', 'certifications', 'languages'],
+    'include_sections': ['header', 'summary', 'skills', 'experience', 'education', 'projects', 'awards', 'languages'],
     'max_projects': None,  # None means include all selected projects
     'base_json': './data/base.json',
     'projects_json': './data/projects.json',

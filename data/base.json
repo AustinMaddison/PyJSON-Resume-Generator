@@ -107,10 +107,10 @@
  
   "awards": [
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "Outstanding Cambridge Learners Awards - Thailand: Highest Achievement Award for Digital Media and Design",
+      "date": "2020-01-01",
+      "awarder": "Cambridge Assessment International Education",
+      "summary": "Received highest score in Thailand for Cambridge International AS & A Level Digital Media and Design."
     }
   ],
   "certificates": [
@@ -142,7 +142,9 @@
       "TypeScript",
       "Go",
       "Scala",
-      "Lua"
+      "Lua",
+      "VEX",
+      "GLSL"
       ]
     },
     {
@@ -152,6 +154,7 @@
       "React",
       "Hugo",
       "Tailwind",
+      "Spring-Boot",
       "Jinja2",
       "Flask",
       "Vue",
@@ -161,7 +164,12 @@
       "REST",
       "WebAssembly",
       "Electron",
-      "ThreeJS"
+      "ThreeJS",
+      "Firebase",
+      "Redis",
+      "SQL",
+      "MySQL",
+      "PostgreSQL"
       ]
     },
     {
@@ -175,21 +183,16 @@
       "MatPlotLib",
       "MATLAB",
       "TensorFlow",
-      "Apache Spark",
-      "ETL Pipelines",
-      "OpenCV"
+      "Apache Spark"
       ]
     },
     {
       "name": "Graphics & 3D",
       "keywords": [
       "OpenGL",
-      "WebGL",
-      "GLSL",
       "Godot",
       "Unity",
       "UE5",
-      "VEX",
       "Houdini",
       "Maya",
       "Blender",
@@ -198,11 +201,10 @@
       "Adobe Suite",
       "ComfyUI",
       "DearImGUI",
-      "DirectX",
-      "Vulkan",
       "CUDA",
       "OpenCL",
-      "FFMPEG"
+      "FFMPEG",
+      "OpenCV"
       ]
     },
     {
@@ -210,33 +212,13 @@
       "keywords": [
       "Git",
       "Unix",
-      "Premake",
       "CMAKE",
-      "LaTeX",
-      "VSCode",
-      "JetBrains IDE",
-      "Spring-Boot",
-      "Firebase",
       "JUnit",
-      "Postman",
       "GitHub Actions",
       "Kafka",
       "Apache Airflow",
       "Kibana-ElasticSearch",
-      "Docker",
-      "VIM/NVIM",
-      "Helix",
-      "Google Workspace API"
-      ]
-    },
-    {
-      "name": "Databases",
-      "keywords": [
-      "Firebase",
-      "Redis",
-      "SQL",
-      "MySQL",
-      "PostgreSQL"
+      "Docker"
       ]
     }
   ],

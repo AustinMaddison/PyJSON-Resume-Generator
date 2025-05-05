@@ -602,10 +602,6 @@ video {
   margin-bottom: auto;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mb-\[4px\] {
   margin-bottom: 4px;
 }
@@ -626,6 +622,10 @@ video {
   flex-direction: row;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -636,6 +636,10 @@ video {
 
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .border {
@@ -911,8 +915,4 @@ ul {
 
 .small {
   font-size: 10pt;
-}
-
-.last\:mb-0:last-child {
-  margin-bottom: 0px;
 }

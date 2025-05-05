@@ -196,22 +196,20 @@
     {% endif %}
     
     <!-- Certificates Section -->
-    {% if 'certifications' in sections %}
-    {% if certificates %}
+    {% if 'awards' in sections %}
+    {% if awards %}
     <section class="section">
         <div class="section-title">
-            <h2>Certificates</h2>
+            <h2>Awards</h2>
         </div>
         <div class="section-list">
             <div>
-                {% for cert in certificates %}
+                {% for award in awards %}
                 <div class="certificate-item">
-                    {% if cert.url %}
-                    <a href="{{ cert.url }}" target="_blank" class="item-title"><strong>{{ cert.name }}</strong></a>
-                    {% else %}
-                    <strong class="item-title">{{ cert.name }}</strong>
-                    {% endif %}
-                    <span class="item-content"> - {{ cert.issuer }} ({{ cert.date }})</span>
+                    <p class="item-title"><strong>{{ award.title }}</strong> {{ award.date.split('-')[0] }}</p>
+                    <div class="item-content">
+                        <p>{{ award.awarder }}</p>
+                    </div>
                 </div>
                 {% endfor %}
             </div>
@@ -219,7 +217,6 @@
     </section>
     {% endif %}
     {% endif %}
-    
     <!-- Languages Section -->
     {% if 'languages' in sections %}
     {% if languages %}
@@ -228,11 +225,13 @@
             <h2>Languages</h2>
         </div>
         <div class="section-list">
+            <div class="flex flex-row flex-wrap gap-2">
                 {% for lang in languages %}
-                <div class="mb-1 last:mb-0">
-                    <span class="item-title">{{ lang.language }}</span>: <span class="item-content">{{ lang.fluency }}</span>
+                <div class="language-item">
+                    <span class="item-title">{{ lang.language }}</span>: <i>{{ lang.fluency }}</i>{% if not loop.last %},{% endif %}
                 </div>
                 {% endfor %}
+            </div>
         </div>
     </section>
     {% endif %}
