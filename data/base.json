@@ -82,12 +82,11 @@
       "startDate": "2023-08-01",
       "endDate": "2023-09-01",
       "location": "Ari, Bangkok",
-      "summary": "Developed a <strong>real-time motion capture 3D installation</strong> project ``Hello Mascot`` for the firm's product portfolio as their part of diversifying the kinds of digital products they can give to clients.",
+      "summary": "Developed a <strong>real-time motion capture 3D installation</strong> project ``Hello Mascot`` for the firm's product portfolio as their part of diversifying the kinds of digital products they can give to clients. The project's reception with colleagues was very positive and <strong>surpassed expectations</strong>.",
       "highlights": [
       "Collaborated with the innovation team's C# developer to implement <strong>motion controls</strong> using <strong>Google's MediaPipe</strong> library for pose landmark detection from external camera feed to interact with virtual character and world.",
       "Implemented <strong>shaders for vegetation and cloud wind, stop motion clay river water wakes, stop motion clay character</strong> and <strong>fully gpu-driven 2D facial animations</strong> using multi UVs and sin/cos functions for scheduling expressions.",
-      "Modeled, textured, animated, layout and lit environment props and character assets using high-poly to low-poly pipeline.",
-      "The project's reception with colleagues was very positive and <strong>surpassed expectations</strong>."
+      "Modeled, textured, animated, layout and lit environment props and character assets using high-poly to low-poly pipeline."
       ],
       "url": "https://company.com"
     }
@@ -217,7 +216,6 @@
       "VSCode",
       "JetBrains IDE",
       "Spring-Boot",
-      "AWS",
       "Firebase",
       "JUnit",
       "Postman",
@@ -226,7 +224,6 @@
       "Apache Airflow",
       "Kibana-ElasticSearch",
       "Docker",
-      "Kubernetes",
       "VIM/NVIM",
       "Helix",
       "Google Workspace API"

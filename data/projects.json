@@ -13,11 +13,11 @@
         "url": "www.example.com"
       },
       {
-        "name": "Custom Blog Platform",
+        "name": "Technical Blog Platform",
         "technologies": "Hugo, Tailwind, Three.js, FFMPEG",
-        "description": "<strong>Responsive static blog</strong> platform with custom Hugo theme, Tailwind styling, and embedded 3D content.",
+        "description": "<strong>Responsive static blog</strong> platform with custom Hugo theme, Tailwind styling, and rich media content.",
         "highlights": [
-          "Built a <strong>UI framework</strong> with custom snippets for grid-based elements, dropdown reveals, <strong>animated thumbnails</strong>, <strong>embedded Three.js</strong>, and <strong>filtering using tags and categories</strong>.",
+          "Built a <strong>UI framework</strong> with custom snippets for grid-based elements, dropdown reveals, <strong>animated thumbnails</strong>, <strong>embedded Three.js</strong>, and <strong>filter content by tag or category</strong>.",
           "Developed <strong>parallax scrolling effects</strong> with tag-based filtering systems, creating a visually engaging browsing experience.",
           "Ensured <strong>subtle animations for most interactable elements</strong>, making all user interactions feel polished but doesn't get in the way of the content."
         ],
@@ -196,7 +196,7 @@
           "Managed <strong>end-to-end competition logistics</strong>, including scheduling and participant coordination.",
           "Deployed <strong>dockerized game servers</strong> for matches, ensuring reproducibility and stability.",
           "Programmed <strong>custom mods</strong> by forking plugins to enforce competition rules and enhance gameplay.",
-          "Built static websites and assets for onboarding and competition information using GitHub Pages.",
+          "Built <strong>static websites</strong> and assets for onboarding and competition information using GitHub Pages.",
           "Created a <strong>registration dashboard</strong> using Python and Google Workspace API for seamless participant management."
         ],
         "url": "www.example.com"

@@ -22,44 +22,46 @@
         <div class="contact-info">
             {% if basics.email %}
             <div class="contact-item">
-                <i class="fas fa-envelope"></i>
+                <!-- <i class="fas fa-envelope"></i> -->
                 <a href="mailto:{{ basics.email }}">{{ basics.email }}</a>
             </div>
             {% endif %}
             
             {% if basics.phone %}
             <div class="contact-item">
-                <i class="fas fa-phone"></i>
+                <!-- <i class="fas fa-phone"></i> -->
                 <span>{{ basics.phone }}</span>
             </div>
             {% endif %}
             
             {% if basics.url %}
             <div class="contact-item">
-                <i class="fas fa-globe"></i>
+                <!-- <i class="fas fa-globe"></i> -->
                 <a href="{{ basics.url }}" target="_blank">{{ basics.url }}</a>
             </div>
             {% endif %}
             
             {% if basics.location and basics.location.city %}
             <div class="contact-item">
-                <i class="fas fa-map-marker-alt"></i>
+                <!-- <i class="fas fa-map-marker-alt"></i> -->
                 <span>{{ basics.location.city }}{% if basics.location.region %}, {{ basics.location.region }}{% endif %}{% if basics.location.countryCode %}, {{ basics.location.countryCode }}{% endif %}</span>
             </div>
             {% endif %}
+   
         </div>
+        <!-- Summary Section -->
+        {% if 'summary' in sections %}
+        {% if position_summary and position_summary != "null" %}
+        <section class="section mx-auto text-center font-semibold">
+            <!-- <h2>Summary</h2> -->
+            <div class="">{{ position_summary }}</div>
+        </section>
+        {% endif %}
+        {% endif %}
     </header>
     {% endif %}
 
-    <!-- Summary Section -->
-    {% if 'summary' in sections %}
-    {% if position_summary and position_summary != "null" %}
-    <section class="section mx-auto text-center">
-        <!-- <h2>Summary</h2> -->
-        <p>{{ position_summary }}</p>
-    </section>
-    {% endif %}
-    {% endif %}
+
     
     <!-- Education Section - Harvard format typically puts education first -->
     {% if 'education' in sections %}
