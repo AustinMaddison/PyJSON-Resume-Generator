@@ -1,6 +1,6 @@
 <div align="center">
 
-# PyJSON Resume Generator
+# 📄 PyJSON Resume Generator 📄
   
 You give it JSON, it spits out your resume as markup HTML and CSS. You can then render it as a PDF in your browser.  
 Just like the name suggests, this tool is built with Python + JSON.
