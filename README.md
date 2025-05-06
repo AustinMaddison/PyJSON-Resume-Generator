@@ -3,7 +3,9 @@
 # PyJSON Resume Generator
   
 You give it JSON, it spits out your resume as markup HTML and CSS. You can then render it as a PDF in your browser.  
-Just like the name suggests, this tool is built with Python + JSON.  
+Just like the name suggests, this tool is built with Python + JSON.
+
+_⚠️early development, enjoy this with caution⚠️_
 
 </div>
 
@@ -18,19 +20,26 @@ Just like the name suggests, this tool is built with Python + JSON.
 - **Build statistics** - See performance metrics for each resume generation
 - **Command-line controls** - Hugo-like command structure
 
-<!-- ## Demo Videos
+## Demo Videos
 
-<!-- ### Live Editing with Watch Mode -->
-<!-- Add link to demo video showing file changes and auto-reload -->
-<!-- [Watch Mode Demo](https://example.com/demo-video) - See how changes to your JSON files instantly update your resume -->
+### Live Editing with Watch Mode
+See how changes to your JSON files update the resume.
 
-<!-- ### Position-Based Project Ordering -->
-<!-- Add link to demo video showing different resume outputs -->
-<!-- [Position Ordering Demo](https://example.com/ordering-demo) - See how projects are automatically ordered by relevance -->
+https://github.com/user-attachments/assets/467ea9f9-7451-405f-871c-854853c79d7b
 
-<!-- ### PDF Export with Page Breaks -->
-<!-- Add link to demo video showing PDF export -->
-<!-- [PDF Export Demo](https://example.com/pdf-demo) - See how to export to PDF with proper page breaks -->
+
+### Position-Based Project Ordering
+See you can order projects for a given position by relevance or whatever you feel fit.
+
+https://github.com/user-attachments/assets/2d7a6af3-a838-42e9-b45f-7cb5b08faf20
+
+
+### PDF Export with Page Breaks
+See how to export to PDF and section items break without producing widows and orphans.
+
+https://github.com/user-attachments/assets/6b514cf7-a525-45cc-b45e-1c88eadf803a
+
+
 
 ## Installation
 
@@ -75,6 +84,7 @@ python resume-generator.py build -w
 ```bash
 python resume-generator.py server
 ```
+Remember you can still open resume .html builds directly from file without running server.
 
 ### Customizing Output
 
