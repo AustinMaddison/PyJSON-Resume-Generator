@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/2d7a6af3-a838-42e9-b45f-7cb5b08faf20
 ### PDF Export with Page Breaks
 See how to export to PDF and section items break without producing widows and orphans.
 
-https://github.com/user-attachments/assets/6b514cf7-a525-45cc-b45e-1c88eadf803a
+![pdfexport](https://github.com/user-attachments/assets/6b514cf7-a525-45cc-b45e-1c88eadf803a)
 
 
 
