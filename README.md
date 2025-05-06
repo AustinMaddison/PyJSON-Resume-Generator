@@ -12,12 +12,11 @@ _⚠️early development, enjoy this with caution⚠️_
 ## Features
 
 - **Modern Harvard Style** - Professional, clean design that's ready for print
-- **Position-specific resumes** - Automatically order projects by relevance for each job position
+- **Position-specific resumes** - Order projects by relevance for each job position
 - **Live editing** - Watch mode rebuilds resumes on file changes
 - **Multiple output formats** - HTML that can be printed to PDF with page breaks
 - **Customizable sections** - Include or exclude sections as needed
 - **Project limits** - Control how many projects appear per resume
-- **Build statistics** - See performance metrics for each resume generation
 - **Command-line controls** - Hugo-like command structure
 
 ## Demo Videos
