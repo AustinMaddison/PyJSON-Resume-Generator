@@ -172,6 +172,3 @@ To export as PDF, open the resume in your browser and use the Print to PDF optio
 - [ ] Preview resume thumbnails on index page
 - [ ] Support for multiple theme templates
 - [ ] Print-specific optimizations
-
-## License
-MIT
