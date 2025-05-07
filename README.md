@@ -1,7 +1,9 @@
 <div align="center">
 
 # 📄 PyJSON Resume Generator 📄
-  
+
+![header](https://github.com/user-attachments/assets/eabe15f0-ec04-4157-a438-246201dc7a46)
+
 You give it JSON, it spits out your resume as markup HTML and CSS. You can then render it as a PDF in your browser.  
 Just like the name suggests, this tool is built with Python + JSON.
 
@@ -18,6 +20,14 @@ _⚠️early development, enjoy this with caution⚠️_
 - **Customizable sections** - Include or exclude sections as needed
 - **Project limits** - Control how many projects appear per resume
 - **Command-line controls** - Hugo-like command structure
+
+## Resume Output Sample
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4b5b1dd8-adeb-46fd-a9ff-9c0cd9be72e5" width="45%">
+  <img src="https://github.com/user-attachments/assets/ac3fdc9c-ac15-4c73-ad92-6eafc69478c9" width="45%">
+</div>
+
+
 
 ## Demo Videos
 
