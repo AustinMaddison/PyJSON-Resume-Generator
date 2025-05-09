@@ -1,0 +1,241 @@
+{
+  "basics": {
+    "name": "John William Doe",
+    "label": "Computer Science Graduate",
+    "image": "null",
+    "email": "john.doe@example.com",
+    "phone": "555-123-4567",
+    "url": "https://johndoe-portfolio.com",
+    "location": {
+      "address": "Downtown",
+      "postalCode": "10110",
+      "city": "Seattle",
+      "countryCode": "US",
+      "region": "Washington"
+    }
+  },
+  "education": [
+    {
+      "institution": "University of Washington",
+      "area": "B.S in Bussiness, Minor in Mathematics (In major GPA 3.5)",
+      "url": "https://washington.edu/",
+      "startDate": "2019-09-01",
+      "endDate": "2023-06-15",
+      "gpa": "3.5",
+      "courses": [
+        "HIDE",
+        "Advanced Programming Paradigms",
+        "Data Structures & Algorithms",
+        "Software Engineering Principles",
+        "Algorithm Analysis & Optimization",
+        "Data Mining & Machine Learning",
+        "Computer Graphics and Visualization",
+        "Distributed Systems Architecture",
+        "Combinatorial Optimization",
+        "Computer Architecture",
+        "Discrete Mathematics Applications",
+        "Game Development Fundamentals"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "University of Washington",
+      "position": "Teaching Assistant",
+      "startDate": "2022-01-15",
+      "endDate": "2023-06-01",
+      "location": "Seattle, Washington",
+      "summary": "",
+      "highlights": [
+      "Guided students in mastering core programming concepts across courses including <strong>Functional Programming, Data Structures, Object-Oriented Programming, and Programming Fundamentals.</strong>",
+      "Offered <strong>one-on-one support</strong> in problem-solving and debugging, enhancing student comprehension of course material.",
+      "Evaluated <strong>250+ assignments</strong> using automated testing scripts and detailed manual reviews.",
+      "Developed strong <strong>communication skills</strong> and analytical abilities by explaining complex programming concepts to students of varying skill levels."
+      ],
+      "url": "https://washington.edu"
+    },
+    {
+      "name": "Digital Horizon Studios",
+      "position": "Software Developer, Part Time",
+      "startDate": "2022-09-01",
+      "endDate": "2023-02-28",
+      "location": "Capitol Hill, Seattle",
+      "summary": "Collaborated with design and innovation teams to develop <strong>multi-user interactive installation \"Urban Connect\" for Seattle Design Festival 2023</strong>.",
+      "highlights": [
+      "Implemented <strong>real-time graphics features</strong> including <strong>custom meshes</strong>, <strong>shader programming</strong> using Unity's C# framework and URP.", 
+      "Key features included: <strong>dynamic multi-point lighting system</strong> with variable intensity using distance fields, <strong>physics-based animations</strong>, procedural cloth simulation with <strong>multi-layered noise patterns</strong>, <strong>particle system collisions</strong>, and <strong>post-processing effects</strong>.",  
+      "Extended <strong>depth camera SDK</strong> for on-site calibration and environmental mapping.",
+      "Received <strong>positive feedback from 150+ visitors</strong> who particularly appreciated the intuitive motion controls and collaborative gameplay elements."
+      ],
+      "url": "https://digitalhorizon.example.com"
+    },
+    {
+      "name": "Digital Horizon Studios",
+      "position": "Software Developer, Internship",
+      "startDate": "2022-06-01",
+      "endDate": "2022-08-15",
+      "location": "Capitol Hill, Seattle",
+      "summary": "Developed a <strong>motion-tracking interactive installation</strong> called \"Character Connect\" for the company's portfolio expansion into interactive digital experiences. The project was <strong>well-received internally</strong> and demonstrated potential for new client offerings.",
+      "highlights": [
+      "Collaborated with senior developers to implement <strong>motion detection</strong> using <strong>computer vision libraries</strong> for real-time body tracking from camera input to control virtual character interactions.",
+      "Created <strong>custom shaders</strong> for environmental elements, water effects, character styling, and <strong>GPU-accelerated facial animation system</strong> using blend shapes and parametric expressions.",
+      "Created 3D assets, textures, and animations for characters and environment using professional modeling pipeline."
+      ],
+      "url": "https://digitalhorizon.example.com"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Code for Community",
+      "position": "Volunteer Instructor",
+      "url": "https://codeforcommunity.org/",
+      "startDate": "2021-03-01",
+      "endDate": "2022-06-01",
+      "summary": "Taught programming fundamentals to underserved youth",
+      "highlights": [
+        "Led weekend coding workshops for 30+ middle school students"
+      ]
+    }
+  ],
+ 
+  "awards": [
+    {
+      "title": "ACM Programming Competition - Regional Finalist",
+      "date": "2022-04-15",
+      "awarder": "Association for Computing Machinery",
+      "summary": "Placed in top 5 teams in the Pacific Northwest regional college programming competition."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "AWS Certified Developer - Associate",
+      "date": "2022-08-23",
+      "issuer": "Amazon Web Services",
+      "url": "https://aws.amazon.com/certification/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Developer Blog",
+      "publisher": "Self-published",
+      "releaseDate": "2021-05-01",
+      "url": "https://devnotes.johndoe-portfolio.com",
+      "summary": "Regular articles on graphics programming, web development, and software architecture."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [
+      "C#/.NET",
+      "Java",
+      "Python",
+      "JavaScript",
+      "C/C++",
+      "TypeScript",
+      "Go",
+      "Rust",
+      "Kotlin",
+      "GLSL",
+      "HLSL"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+      "HTML/CSS",
+      "React",
+      "Gatsby",
+      "Tailwind",
+      "Spring-Boot",
+      "Flask",
+      "Vue",
+      "NextJS",
+      "Chakra UI",
+      "Webpack",
+      "REST",
+      "WebAssembly",
+      "Electron",
+      "ThreeJS",
+      "Firebase",
+      "Redis",
+      "SQL",
+      "MongoDB",
+      "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "keywords": [
+      "Jupyter Notebook",
+      "NumPy",
+      "SciPy",
+      "Pandas",
+      "Plotly",
+      "MatPlotLib",
+      "MATLAB",
+      "PyTorch",
+      "Apache Spark"
+      ]
+    },
+    {
+      "name": "Graphics & 3D",
+      "keywords": [
+      "OpenGL",
+      "Godot",
+      "Unity",
+      "Unreal Engine",
+      "Blender",
+      "Maya",
+      "Substance Designer",
+      "Adobe Suite",
+      "Stable Diffusion",
+      "DearImGUI",
+      "CUDA",
+      "OpenCL",
+      "FFMPEG",
+      "OpenCV"
+      ]
+    },
+    {
+      "name": "DevOps & Tools",
+      "keywords": [
+      "Git",
+      "Linux",
+      "CMAKE",
+      "JUnit",
+      "GitHub Actions",
+      "Jenkins",
+      "Apache Airflow",
+      "ELK Stack",
+      "Docker",
+      "Kubernetes"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Game Development",
+      "keywords": [
+        "Indie Games",
+        "Procedural Generation"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Emily Chen",
+      "reference": "Available upon request"
+    }
+  ]
+}

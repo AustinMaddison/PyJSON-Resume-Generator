@@ -1,0 +1,218 @@
+{
+    "projects": [
+      {
+        "name": "ConnectMate - Social Connection Platform",
+        "technologies": "Vue, Vuetify, Java, Spring",
+        "description": "<strong>Social platform</strong> web application that connects users based on shared interests and compatible personalities.",
+        "highlights": [
+          "<strong>Designed and implemented</strong> the frontend using Vue and Vuetify, including <strong>user authentication</strong>, <strong>profile management</strong>, and <strong>interactive matching interface</strong>.",
+          "Created <strong>custom Vuetify theme</strong> and an <strong>interactive cursor system</strong> for enhanced profile navigation and user experience.",
+          "Built Java Spring backend for <strong>secure authentication</strong> and efficient data management.",
+          "Developed <strong>recommendation algorithm</strong> based on user preferences and interests, enabling MVP functionality with scalability."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Developer Blog Platform",
+        "technologies": "Hugo, Tailwind, Three.js, FFMPEG",
+        "description": "<strong>Responsive static blog</strong> platform with custom Hugo theme, Tailwind styling, and interactive media elements.",
+        "highlights": [
+          "Created a <strong>UI component system</strong> with templates for grid layouts, expandable sections, <strong>interactive previews</strong>, <strong>Three.js visualizations</strong>, and <strong>content filtering</strong>.",
+          "Implemented <strong>smooth scrolling effects</strong> with category-based filtering, delivering an engaging user experience.",
+          "Designed <strong>subtle transition animations</strong> for interactive elements, enhancing usability without distracting from content."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Health Verification App",
+        "technologies": "Electron, Python, 3D Rendering API",
+        "description": "<strong>Desktop application</strong> generating realistic health verification documents with customizable parameters.",
+        "highlights": [
+          "Developed a <strong>cross-platform app</strong> allowing users to input information and <strong>generate realistic test result images</strong> with customizable elements.",
+          "Created <strong>detailed 3D models</strong> of testing devices using industry-standard modeling and texturing tools.",
+          "Built Python backend with <strong>3D rendering pipeline</strong> to automate visualization based on user parameters."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Bokeh Effect Post-Processing Pipeline",
+        "technologies": "C#, MATLAB, HLSL, Unity-URP",
+        "description": "<strong>Performance-optimized</strong> cinematic blur post-processing effect using advanced convolution techniques.",
+        "highlights": [
+          "Engineered a post-processing blur algorithm with <strong>linear complexity</strong> instead of quadratic using mathematical optimization in phasor space.",
+          "Prototyped in MATLAB then implemented in <strong>Unity's rendering pipeline</strong> using HLSL for real-time cinematic effects."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Pathfinding Algorithm Visualization Tool",
+        "technologies": "C#, HLSL, Unity-URP",
+        "description": "<strong>Interactive algorithm visualizer</strong> for comparing pathfinding methods with customizable environments.",
+        "highlights": [
+          "Created a real-time visualization tool supporting <strong>multiple search algorithms</strong> (A*, BFS, Dijkstra, Greedy) with extensible architecture.",
+          "Built an <strong>interactive UI system</strong> with live updates and cost heatmap overlays.",
+          "Implemented <strong>performance monitoring</strong> and intuitive map editor for scenario testing."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Procedural Vegetation System",
+        "technologies": "C++, Python, HLSL, UE5",
+        "description": "<strong>Environmental simulation tools</strong> for realistic vegetation placement in game environments.",
+        "highlights": [
+          "Created <strong>procedural generation tools</strong> for plant placement using environmental variables and species characteristics.",
+          "Developed <strong>distribution algorithms</strong> and growth simulation using ecological principles.",
+          "Generated <strong>high-quality visualizations</strong> balancing realism and artistic direction."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Retro Display Shader Collection",
+        "technologies": "GLSL, Godot, C#",
+        "description": "<strong>Custom shader suite</strong> emulating classic display technologies with authentic visual artifacts.",
+        "highlights": [
+          "Simulated <strong>authentic effects</strong> including scanlines, color bleeding, and display distortion.",
+          "<strong>Programmed</strong> a <strong>configurable pixel matrix</strong> using <strong>GLSL</strong> for accurate vintage display rendering.",
+          "Optimized for <strong>runtime performance</strong> in interactive applications."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Light Transport Simulation with GPU Acceleration",
+        "technologies": "C++, GLSL, Compute-Shaders, Dear-IMGUI",
+        "description": "<strong>Physically-based lighting system</strong> using GPU-accelerated algorithms for global illumination.",
+        "highlights": [
+          "Built a <strong>performant lighting simulation</strong> using Monte Carlo methods for accurate light transport.",
+          "Created <strong>GPU compute shaders</strong> for efficient ray traversal in procedural environments.",
+          "Designed a <strong>light probe system</strong> for efficient indirect lighting calculation.",
+          "Conducted <strong>performance analysis</strong> demonstrating <strong>7x improvement</strong> over traditional methods while maintaining quality."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Virtual Avatar System",
+        "technologies": "Unity, C#, Computer Vision SDK",
+        "description": "<strong>Real-time character system</strong> with body tracking and stylized visual effects.",
+        "highlights": [
+          "Implemented <strong>full-body tracking</strong> using computer vision for natural interactions.",
+          "Created <strong>custom shaders</strong> for character visualization and procedural animation blending.",
+          "Developed high-quality character assets and animations for <strong>interactive demonstrations</strong>.",
+          "Delivered a <strong>successful prototype</strong> that expanded the company's technical capabilities."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Urban Connect - Seattle Design Festival",
+        "technologies": "Unity, C#, Depth Cameras",
+        "description": "<strong>Multi-user interactive installation</strong> featured at Seattle Design Festival with advanced visual effects.",
+        "highlights": [
+          "Implemented <strong>real-time graphics features</strong>: dynamic lighting, physics simulation, procedural animation, and interactive visual effects.",
+          "Extended <strong>depth camera SDK</strong> for custom spatial mapping and calibration.",
+          "Received <strong>positive feedback</strong> from attendees for the innovative interaction design."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Cloud Rendering Engine",
+        "technologies": "OpenGL, C#, GLSL, OpenTK, Dear-IMGUI",
+        "description": "<strong>Real-time sky rendering system</strong> with atmospheric scattering and volumetric cloud simulation.",
+        "highlights": [
+          "Simulated <strong>realistic sky</strong> with accurate light scattering, time of day, and weather conditions.",
+          "Developed volume rendering techniques with <strong>procedural noise</strong> for realistic cloud formation.",
+          "Created <strong>rendering framework</strong> with shader management and debug interface."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Gamma Game Jam 2023.1 - Night Shift",
+        "technologies": "Godot, GdScript, GLSL",
+        "description": "<strong>Atmospheric 2D game</strong> created for Gamma Game Jam 2023 with custom visual effects.",
+        "highlights": [
+          "Implemented <strong>color grading system</strong> and <strong>procedural noise effects</strong> for atmospheric visuals.",
+          "Created <strong>GPU-accelerated lighting system</strong> for dynamic shadows and visibility mechanics.",
+          "Developed <strong>core gameplay systems</strong>: resource management, environment interaction, and audio feedback.",
+          "Designed <strong>complete soundscape</strong> with adaptive audio response to gameplay events."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Terminal UI Animation Framework",
+        "technologies": "C++",
+        "description": "<strong>Custom command-line interface</strong> with text-based animations and extended shell functionality.",
+        "highlights": [
+          "<strong>Developed a Linux shell extension</strong> supporting interactive and script modes, with <strong>custom command parsing</strong>, <strong>built-in utilities</strong>, and <strong>I/O redirection</strong> using system calls.",
+          "<strong>Built process management system</strong> for <strong>background execution</strong>, <strong>signal handling</strong>, and <strong>job status notifications</strong>.",
+          "<strong>Created terminal-based UI</strong> with <strong>command history</strong>, <strong>customizable prompts</strong>, <strong>ANSI color support</strong>, and <strong>text-based animations</strong>."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "High-Performance Web Server",
+        "technologies": "C++",
+        "description": "<strong>Custom multi-threaded web server</strong> implementing <strong>HTTP/1.1</strong> and <strong>CGI support</strong> for dynamic content.",
+        "highlights": [
+          "<strong>Built request handling pipeline</strong> with <strong>parsing</strong>, <strong>routing</strong>, and <strong>response generation</strong> using efficient parsing techniques.",
+          "<strong>Implemented thread pool architecture</strong> for concurrent connection handling and responsive performance under load."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Educational CPU Simulator",
+        "technologies": "C++",
+        "description": "<strong>Instruction set simulator</strong> for teaching computer architecture, supporting core MIPS operations and debugging.",
+        "highlights": [
+          "<strong>Created instruction processing pipeline</strong> with <strong>parsing</strong>, <strong>execution</strong>, and <strong>debugging commands</strong> with comprehensive modeling of processor components.",
+          "<strong>Implemented memory management</strong> with proper endianness handling and thorough validation through testing."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Data Analysis Pipeline for Financial Markets",
+        "technologies": "Python, Kafka, DuckDB",
+        "description": "<strong>Data processing system</strong> for financial market analysis with streaming and batch capabilities.",
+        "highlights": [
+          "<strong>Built data pipeline</strong> integrating <strong>market data feeds</strong> and <strong>news sources</strong> using <strong>Kafka</strong>, with <strong>data processing workflows</strong> for cleaning and transformation.",
+          "<strong>Improved storage efficiency</strong> by converting to <strong>compressed columnar format</strong>, enabling fast analytics with <strong>SQL queries</strong>.",
+          "<strong>Conducted statistical analysis</strong> using <strong>time-series methods</strong> to identify correlations between <strong>news sentiment</strong> and <strong>market movements</strong>."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Real-Time Data Visualization Dashboard",
+        "technologies": "Python, Kafka, Elasticsearch, Kibana",
+        "description": "<strong>Live financial monitoring platform</strong> with streaming data integration and interactive dashboards.",
+        "highlights": [
+          "<strong>Implemented streaming pipeline</strong> for <strong>market data</strong> and <strong>currency rates</strong> from <strong>financial APIs</strong> using <strong>Kafka</strong> and <strong>Elasticsearch</strong> for storage.",
+          "<strong>Developed search capabilities</strong> with <strong>filtering</strong>, <strong>aggregation</strong>, and <strong>trend detection</strong> for comprehensive market analysis.",
+          "<strong>Created interactive visualizations</strong> in <strong>Kibana</strong> with <strong>data transformations</strong> for optimized presentation and insight discovery."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "Gaming Community Server Management",
+        "technologies": "Java, Docker, HTML, JS, Python, Linux",
+        "description": "<strong>Tournament platform</strong> with custom game modifications, server automation, and participant management.",
+        "highlights": [
+          "Organized <strong>complete tournament operations</strong> including player registration and scheduling.",
+          "Set up <strong>containerized game servers</strong> for reliable match environments.",
+          "Developed <strong>custom game modifications</strong> to support competition rules and enhance gameplay.",
+          "Built <strong>informational website</strong> for tournament details and participant resources.",
+          "Created <strong>registration system</strong> using Python and API integration for streamlined participant management."
+        ],
+        "url": "www.example.com"
+      },
+      {
+        "name": "JSON-Based Resume Builder",
+        "technologies": "Flask, Jinja2, Tailwind, PostCSS, JavaScript, SSE",
+        "description": "<strong>Dynamic resume generator</strong> creating customized resumes from structured data using web technologies.",
+        "highlights": [
+          "Built a <strong>Flask application</strong> that generates job-specific resumes from structured JSON data sources.",
+          "Implemented <strong>real-time updates</strong> using server-sent events for immediate preview during editing.",
+          "Created <strong>file monitoring system</strong> that triggers automatic rebuilds when source files change.",
+          "Developed <strong>resume browser</strong> for viewing all generated position-specific documents.",
+          "Designed <strong>professional resume template</strong> using modern CSS framework with optimized styling."
+        ],
+        "url": "www.example.com"
+      }
+    ]
+  }
