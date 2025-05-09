@@ -11,6 +11,30 @@ _⚠️early development, enjoy this with caution⚠️_
 
 </div>
 
+## Installation
+
+### Prerequisites
+
+- Python 3.6+
+- Node.js and npm (for CSS processing)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/AustinMaddison/PyJSON-Resume-Generator.git
+cd PyJSON-Resume-Generator
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+```bash
+pip install jinja2 flask watchdog
+```
+
 ## Features
 
 - **Modern Harvard Style** - Professional, clean design that's ready for print
@@ -50,29 +74,7 @@ https://github.com/user-attachments/assets/6b514cf7-a525-45cc-b45e-1c88eadf803a
 
 
 
-## Installation
 
-### Prerequisites
-
-- Python 3.6+
-- Node.js and npm (for CSS processing)
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/AustinMaddison/PyJSON-Resume-Generator.git
-cd PyJSON-Resume-Generator
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-```bash
-pip install jinja2 flask watchdog
-```
 
 ## Usage
 
